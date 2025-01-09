@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
     /* Estilizando a página de login */
     .indexPage {
-        height: auto; /* Ajustar altura para dispositivos móveis */
+        height: 100vh; /* Ajustar altura para dispositivos móveis */
         padding: 20px; /* Adicionar algum espaçamento */
     }
 
