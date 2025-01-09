@@ -1,0 +1,27 @@
+/* configurações globais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+/* estilização para respostas certas ou erradas */
+.correct {
+    color: green; /* Resposta correta em verde */
+}
+
+.incorrect {
+    color: red; /* Resposta errada em vermelho */
+}
+
+.correct-answer {
+    font-weight: bold;
+    color: green; /* Resposta correta em verde */
+}
+
+.incorrect-answer {
+    font-weight: bold;
+    color: red; /* Resposta correta, mas com a cor vermelha (quando errada) */
+}

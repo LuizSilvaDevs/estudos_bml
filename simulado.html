@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="simuPage">
+
+    <h1>Simulado</h1>
+
+    <div id="simuladoContent" class="simu">
+        <!-- Conteúdo do Simulado será inserido aqui via JavaScript -->
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>
+    <script src="checkAnswers.js"></script>
+    <script>
+        // Função para verificar o parâmetro da URL e carregar o simulado adequado
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const simulado = urlParams.get('simulado');
+            const simuladoContent = document.getElementById('simuladoContent');
+
+            if (simulado === 'risaer') {
+                quizrisaer();
+                simuladoContent.innerHTML += '<button class="button_verificar" onclick="checkRisaerAnswers()">Verificar Respostas</button>';
+                simuladoContent.innerHTML += '<div class="resultText" id="risaerResult"></div>';
+            } else if (simulado === 'rcont') {
+                quizrcont();
+                simuladoContent.innerHTML += '<button class="button_verificar" onclick="checkRcontAnswers()">Verificar Respostas</button>';
+                simuladoContent.innerHTML += '<div class="resultText" id="rcontResult"></div>';
+            } else if (simulado === 'rdaer') {
+                quizrdaer();
+                simuladoContent.innerHTML += '<button class="button_verificar" onclick="checkRdaerAnswers()">Verificar Respostas</button>';
+                simuladoContent.innerHTML += '<div class="resultText" id="rdaerResult"></div>';
+            } else if (simulado === 'conhecimento') {
+                quizconhecimento();
+                simuladoContent.innerHTML += '<button class="button_verificar" onclick="checkConhecimentoAnswers()">Verificar Respostas</button>';
+                simuladoContent.innerHTML += '<div class="resultText" id="conhecimentoResult"></div>';
+            } else if (simulado === 'estatuto') {
+                quizestatuto();
+                simuladoContent.innerHTML += '<button class="button_verificar" onclick="checkEstatutoAnswers()">Verificar Respostas</button>';
+                simuladoContent.innerHTML += '<div class="resultText" id="estatutoResult"></div>';
+            } 
+            else {
+                simuladoContent.innerHTML = '<p>Simulado não encontrado.</p>';
+            }
+        };
+    </script>
+
+</body>
+</html>
