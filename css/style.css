@@ -61,6 +61,14 @@
     font-weight: bolder;
 }
 
+.acessar_simulado{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(86, 86, 86);
+    padding: 8px;
+    border-radius: 20px;
+}
+
 /* estilizar Pagina Inicial */
 .initiPage{
     width: 100vw;
