@@ -1,0 +1,84 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Estilizando a página de login */
+    .indexPage {
+        height: auto; /* Ajustar altura para dispositivos móveis */
+        padding: 20px; /* Adicionar algum espaçamento */
+    }
+
+    .login-container {
+        flex-direction: column; /* Colocar os itens na vertical */
+        width: 90%; /* Reduzir a largura para caber melhor na tela */
+        padding: 20px; /* Ajustar o padding */
+    }
+
+    .login-container h1 {
+        font-size: 2em; /* Diminuir o tamanho da fonte */
+    }
+
+    .form_login {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    .login, .pass, .btn_entrar {
+        padding: 12px; /* Aumentar o padding para facilitar a interação */
+        font-size: 1.2em; /* Aumentar o tamanho da fonte */
+    }
+
+    .btn_entrar {
+        width: 100%; /* Tornar o botão de login mais largo */
+    }
+
+    .msg_erro {
+        font-size: 1em; /* Ajustar o tamanho da mensagem de erro */
+    }
+
+    /* Estilizando a página inicial */
+    .initiPage {
+        height: auto; /* Ajustar altura para dispositivos móveis */
+        padding: 20px; /* Adicionar padding */
+    }
+
+    .container_principal {
+        width: 100%; /* Tornar o container principal mais estreito */
+        padding: 10px; /* Ajustar o padding */
+    }
+
+    .texto-principal h2 {
+        font-size: 2em; /* Ajustar o tamanho do título */
+    }
+
+    .texto-principal p {
+        font-size: 1em; /* Ajustar o tamanho do parágrafo */
+    }
+
+    .menu_simulados ul {
+        flex-direction: column;
+    }
+
+    .menu_simulados ul li a {
+        font-size: 1.1em; /* Ajustar o tamanho da fonte dos links */
+    }
+
+    /* Estilizando a página de simulado */
+    .simuPage {
+        padding: 20px; /* Adicionar padding */
+    }
+
+    .simu {
+        width: 90%; /* Ajustar a largura do container do simulado */
+    }
+
+    .question {
+        width: 100%; /* Ajustar a largura das perguntas */
+    }
+
+    .pergunta_texto, .input_texto {
+        font-size: 1.1em; /* Ajustar o tamanho da fonte das perguntas e inputs */
+    }
+
+    .button_verificar {
+        width: 100%; /* Tornar o botão mais largo */
+        padding: 12px; /* Ajustar padding */
+    }
+}
