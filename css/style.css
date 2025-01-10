@@ -167,3 +167,16 @@
 .resultText{
     margin: 0 0 50px 0;
 }
+
+/* botao voltar */
+.btn-voltar{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    background-color: gray;
+    padding: 4px;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
