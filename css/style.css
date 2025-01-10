@@ -74,8 +74,10 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 
 }
 .container_principal{
@@ -128,6 +130,7 @@
 .simuPage h1{
     font-size: 4em;
     text-align: center;
+    margin-top: 20px;
 }   
 .simu{
     display: flex;
@@ -180,4 +183,23 @@
     position: absolute;
     top: 6px;
     left: 0;
+}
+
+.btn_deslogar{
+    text-decoration: none;
+    text-align: center;   
+}
+
+.second_class{
+    background-color: rgb(78, 76, 76);
+}
+.second_class a{
+    color: white;
+}
+.second_class:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.second_class a:hover{
+    color: black;
 }
