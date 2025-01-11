@@ -726,6 +726,381 @@ const rdaerQuizData = [
 
 // Dados das questões de Conhecimento BLM
 const conhecimentoQuizData = [
+    {
+        question: "Quem foi o pioneiro que realizou o primeiro voo controlado em público com um aparelho mais pesado que o ar?",
+        options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Leonardo da Vinci"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a principal função das asas de uma aeronave?",
+        options: ["Armazenar combustível", "Criar força de sustentação", "Aumentar a estabilidade no solo", "Proteger os motores"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é o profundor em uma aeronave?",
+        options: ["Um tipo de motor auxiliar", "Uma superfície que controla o movimento vertical do nariz", "Um dispositivo de frenagem", "Parte do trem de pouso"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza um cálculo do 'Part Number' (P/N)?",
+        options: ["Identificação do número de série de uma aeronave", "Código designado ao projeto de cada aeronave", "Número de identificação de um item pelo fabricante", "Quantidade de horas de voo"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o principal componente do grupo motopropulsor?",
+        options: ["Profundor", "Motor", "Trem de pouso", "Tanque de combustível"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é a eletrostática?",
+        options: ["O estudo de cargas elétricas em movimento", "O estudo de cargas elétricas em repouso", "A transmissão de ondas magnéticas", "O comportamento de condutores em alta tensão"],
+        correctAnswer: 1
+    },
+    {
+        question: "Um cátion é formado quando:",
+        options: ["Um átomo perde elétrons", "Um átomo ganha elétrons", "Um átomo neutraliza seu núcleo", "Um átomo se torna estável"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a unidade de medida da corrente elétrica?",
+        options: ["Volt", "Ampère", "Ohm", "Joule"],
+        correctAnswer: 1
+    },
+    {
+        question: "Em qual situação ocorre uma eletrização por indução?",
+        options: ["Dois corpos neutros entram em atrito", "Um corpo eletrizado entra em contato com um neutro", "Um corpo eletrizado aproxima-se de um neutro sem contato", "Há a troca de núcleos entre átomos"],
+        correctAnswer: 2
+    },
+    {
+        question: "Um material que não conduz corrente elétrica é chamado de:",
+        options: ["Condutor", "Isolante", "Resistivo", "Semi-condutor"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a principal razão para a pintura em aeronaves?",
+        options: ["Estética", "Reduzir o peso total", "Proteger contra corrosão", "Facilitar a manutenção"],
+        correctAnswer: 2
+    },
+    {
+        question: "O que é considerado um material consumível na manutenção de aeronaves?",
+        options: ["Tanque de combustível", "Parafusos e arruelas", "Motores auxiliares", "Ferramentas de precisão"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza uma chave de fenda comum?",
+        options: ["Ponta fina com alta precisão", "Ponta rombuda e espessa", "Ponta em cruz", "Cabo ajustável"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é o nome dado ao item que não pode ser desmontado sem destruição?",
+        options: ["Equipamento", "Conjunto", "Peça", "Ferramental"],
+        correctAnswer: 2
+    },
+    {
+        question: "Como são classificadas as ferramentas que auxiliam na manutenção em solo?",
+        options: ["Equipamentos de apoio solo", "Ferramentas de precisão", "Instrumentos de medição", "Equipamentos secundários"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a principal causa de corrosão em superfícies metálicas?",
+        options: ["Impacto mecânico", "Exposição a agentes químicos", "Uso inadequado de combustíveis", "Sobrecarga elétrica"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a melhor maneira de prevenir a corrosão?",
+        options: ["Pintura protetiva", "Uso de eletrólitos", "Redução do peso total", "Substituição de peças periodicamente"],
+        correctAnswer: 0
+    },
+    {
+        question: "O que significa 'passivação' no tratamento anticorrosivo?",
+        options: ["Cobertura com um material isolante", "Remoção de camadas oxidadas", "Criação de uma camada protetora química", "Polimento de superfícies"],
+        correctAnswer: 2
+    },
+    {
+        question: "Quais materiais são mais propensos à corrosão?",
+        options: ["Ligas metálicas", "Materiais compósitos", "Polímeros", "Cerâmicas"],
+        correctAnswer: 0
+    },
+    {
+        question: "O que caracteriza um ataque corrosivo galvânico?",
+        options: ["Formação de fissuras por impacto", "Reação entre metais diferentes em contato", "Oxidação por alta temperatura", "Uso inadequado de solventes"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual ferramenta é usada para cortar chapas metálicas com precisão?",
+        options: ["Furadeira", "Guilhotina", "Dobradeira", "Torno mecânico"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é um martelete pneumático usado em manutenção?",
+        options: ["Ferramenta para soldagem", "Equipamento de pintura", "Ferramenta para rebitagem", "Instrumento de medição"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a função de uma dobradeira?",
+        options: ["Curvar chapas metálicas", "Cortar perfis de liga", "Medir espessuras", "Remover oxidação"],
+        correctAnswer: 0
+    },
+    {
+        question: "Como são classificadas as brocas utilizadas em aeronaves?",
+        options: ["Pelo diâmetro e material de fabricação", "Pelo tipo de motor utilizado", "Pela resistência à corrosão", "Pelo revestimento de superfície"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a finalidade do uso de furação em aeronaves?",
+        options: ["Aumentar a resistência estrutural", "Facilitar a manutenção interna", "Reforçar a pressurização", "Permitir junções rebitadas"],
+        correctAnswer: 3
+    },
+    {
+        question: "O que define um equipamento de voo 'SSS'?",
+        options: ["Sistema de Segurança e Sustentação", "Sistema de Suporte Simplificado", "Sistema de Sobrevivência e Suporte", "Sistema de Supervisão Secundária"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a função primária dos equipamentos de navegação?",
+        options: ["Fornecer dados para estabilidade", "Garantir a segurança dos tripulantes", "Controlar os motores", "Monitorar o espaço aéreo"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza o sistema SILOMS?",
+        options: ["Gerenciamento de suprimentos logísticos", "Monitoração de combustíveis", "Controle de condições climáticas", "Supervisão de eletrônicos"],
+        correctAnswer: 0
+    },
+    {
+        question: "Onde normalmente estão localizados os estabilizadores em uma aeronave?",
+        options: ["Na fuselagem", "Nas asas", "Na cauda", "No trem de pouso"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o principal objetivo das publicações técnicas no contexto do equipamento de voo?",
+        options: ["Fornecer informações de segurança operacional", "Catalogar peças de reposição", "Padronizar procedimentos de manutenção", "Analisar custos de operação"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual ferramenta é usada para retirar contra-pinos em aeronaves?",
+        options: ["Alicate de corte diagonal", "Chave Phillips", "Chave combinada", "Soquete"],
+        correctAnswer: 0
+    },
+    {
+        question: "Em que parte do avião estão localizadas as superfícies de controle principais?",
+        options: ["Trem de pouso", "Bordos de fuga das asas", "Fuselagem dianteira", "Motores"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza uma furação sem rebarbas?",
+        options: ["Corte de alta precisão", "Utilização de abrasivos", "Alta rotação e refrigeração adequada", "Uso de brocas diamantadas"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual material é mais comumente usado para reduzir atrito em aeronaves?",
+        options: ["Polímero sintético", "Ligas de titânio", "Aço inoxidável", "Grafite"],
+        correctAnswer: 3
+    },
+    {
+        question: "O que é considerado um componente do SILOMS?",
+        options: ["Gerador elétrico", "Sistema de rastreamento de materiais", "Radar de alta frequência", "Tanque de oxigênio"],
+        correctAnswer: 1
+    },
+    {
+        question: "Quem foi o pioneiro que realizou o primeiro voo controlado em público com um aparelho mais pesado que o ar?",
+        options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Leonardo da Vinci"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a principal função das asas de uma aeronave?",
+        options: ["Armazenar combustível", "Criar força de sustentação", "Aumentar a estabilidade no solo", "Proteger os motores"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é o profundor em uma aeronave?",
+        options: ["Um tipo de motor auxiliar", "Uma superfície que controla o movimento vertical do nariz", "Um dispositivo de frenagem", "Parte do trem de pouso"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza um cálculo do 'Part Number' (P/N)?",
+        options: ["Identificação do número de série de uma aeronave", "Código designado ao projeto de cada aeronave", "Número de identificação de um item pelo fabricante", "Quantidade de horas de voo"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o principal componente do grupo motopropulsor?",
+        options: ["Profundor", "Motor", "Trem de pouso", "Tanque de combustível"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é a eletrostática?",
+        options: ["O estudo de cargas elétricas em movimento", "O estudo de cargas elétricas em repouso", "A transmissão de ondas magnéticas", "O comportamento de condutores em alta tensão"],
+        correctAnswer: 1
+    },
+    {
+        question: "Um cátion é formado quando:",
+        options: ["Um átomo perde elétrons", "Um átomo ganha elétrons", "Um átomo neutraliza seu núcleo", "Um átomo se torna estável"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a unidade de medida da corrente elétrica?",
+        options: ["Volt", "Ampère", "Ohm", "Joule"],
+        correctAnswer: 1
+    },
+    {
+        question: "Em qual situação ocorre uma eletrização por indução?",
+        options: ["Dois corpos neutros entram em atrito", "Um corpo eletrizado entra em contato com um neutro", "Um corpo eletrizado aproxima-se de um neutro sem contato", "Há a troca de núcleos entre átomos"],
+        correctAnswer: 2
+    },
+    {
+        question: "Um material que não conduz corrente elétrica é chamado de:",
+        options: ["Condutor", "Isolante", "Resistivo", "Semi-condutor"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a principal razão para a pintura em aeronaves?",
+        options: ["Estética", "Reduzir o peso total", "Proteger contra corrosão", "Facilitar a manutenção"],
+        correctAnswer: 2
+    },
+    {
+        question: "O que é considerado um material consumível na manutenção de aeronaves?",
+        options: ["Tanque de combustível", "Parafusos e arruelas", "Motores auxiliares", "Ferramentas de precisão"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza uma chave de fenda comum?",
+        options: ["Ponta fina com alta precisão", "Ponta rombuda e espessa", "Ponta em cruz", "Cabo ajustável"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é o nome dado ao item que não pode ser desmontado sem destruição?",
+        options: ["Equipamento", "Conjunto", "Peça", "Ferramental"],
+        correctAnswer: 2
+    },
+    {
+        question: "Como são classificadas as ferramentas que auxiliam na manutenção em solo?",
+        options: ["Equipamentos de apoio solo", "Ferramentas de precisão", "Instrumentos de medição", "Equipamentos secundários"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a principal causa de corrosão em superfícies metálicas?",
+        options: ["Impacto mecânico", "Exposição a agentes químicos", "Uso inadequado de combustíveis", "Sobrecarga elétrica"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a melhor maneira de prevenir a corrosão?",
+        options: ["Pintura protetiva", "Uso de eletrólitos", "Redução do peso total", "Substituição de peças periodicamente"],
+        correctAnswer: 0
+    },
+    {
+        question: "O que significa 'passivação' no tratamento anticorrosivo?",
+        options: ["Cobertura com um material isolante", "Remoção de camadas oxidadas", "Criação de uma camada protetora química", "Polimento de superfícies"],
+        correctAnswer: 2
+    },
+    {
+        question: "Quais materiais são mais propensos à corrosão?",
+        options: ["Ligas metálicas", "Materiais compósitos", "Polímeros", "Cerâmicas"],
+        correctAnswer: 0
+    },
+    {
+        question: "O que caracteriza um ataque corrosivo galvânico?",
+        options: ["Formação de fissuras por impacto", "Reação entre metais diferentes em contato", "Oxidação por alta temperatura", "Uso inadequado de solventes"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual ferramenta é usada para cortar chapas metálicas com precisão?",
+        options: ["Furadeira", "Guilhotina", "Dobradeira", "Torno mecânico"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que é um martelete pneumático usado em manutenção?",
+        options: ["Ferramenta para soldagem", "Equipamento de pintura", "Ferramenta para rebitagem", "Instrumento de medição"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a função de uma dobradeira?",
+        options: ["Curvar chapas metálicas", "Cortar perfis de liga", "Medir espessuras", "Remover oxidação"],
+        correctAnswer: 0
+    },
+    {
+        question: "Como são classificadas as brocas utilizadas em aeronaves?",
+        options: ["Pelo diâmetro e material de fabricação", "Pelo tipo de motor utilizado", "Pela resistência à corrosão", "Pelo revestimento de superfície"],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual é a finalidade do uso de furação em aeronaves?",
+        options: ["Aumentar a resistência estrutural", "Facilitar a manutenção interna", "Reforçar a pressurização", "Permitir junções rebitadas"],
+        correctAnswer: 3
+    },
+    {
+        question: "O que define um equipamento de voo 'SSS'?",
+        options: ["Sistema de Segurança e Sustentação", "Sistema de Suporte Simplificado", "Sistema de Sobrevivência e Suporte", "Sistema de Supervisão Secundária"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a função primária dos equipamentos de navegação?",
+        options: ["Fornecer dados para estabilidade", "Garantir a segurança dos tripulantes", "Controlar os motores", "Monitorar o espaço aéreo"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza o sistema SILOMS?",
+        options: ["Gerenciamento de suprimentos logísticos", "Monitoração de combustíveis", "Controle de condições climáticas", "Supervisão de eletrônicos"],
+        correctAnswer: 0
+    },
+    {
+        question: "Onde normalmente estão localizados os estabilizadores em uma aeronave?",
+        options: ["Na fuselagem", "Nas asas", "Na cauda", "No trem de pouso"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o principal objetivo das publicações técnicas no contexto do equipamento de voo?",
+        options: ["Fornecer informações de segurança operacional", "Catalogar peças de reposição", "Padronizar procedimentos de manutenção", "Analisar custos de operação"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual ferramenta é usada para retirar contra-pinos em aeronaves?",
+        options: ["Alicate de corte diagonal", "Chave Phillips", "Chave combinada", "Soquete"],
+        correctAnswer: 0
+    },
+    {
+        question: "Em que parte do avião estão localizadas as superfícies de controle principais?",
+        options: ["Trem de pouso", "Bordos de fuga das asas", "Fuselagem dianteira", "Motores"],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza uma furação sem rebarbas?",
+        options: ["Corte de alta precisão", "Utilização de abrasivos", "Alta rotação e refrigeração adequada", "Uso de brocas diamantadas"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual material é mais comumente usado para reduzir atrito em aeronaves?",
+        options: ["Polímero sintético", "Ligas de titânio", "Aço inoxidável", "Grafite"],
+        correctAnswer: 3
+    },
+    {
+        question: "O que é considerado um componente do SILOMS?",
+        options: ["Gerador elétrico", "Sistema de rastreamento de materiais", "Radar de alta frequência", "Tanque de oxigênio"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual fator mais contribui para o desgaste de pneus de aviões?",
+        options: ["Altas temperaturas", "Velocidade no pouso", "Pressão de inflagem", "Fadiga do material"],
+        correctAnswer: 2
+    },
+    {
+        question: "A resistência elétrica de um fio depende de:",
+        options: ["Têmpera do material", "Comprimento e área de seção", "Tipo de isolante externo", "Frequência da corrente alternada"],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual parte do motor turbofan é mais propensa a corrosão?",
+        options: ["Câmara de combustão", "Compressor", "Turbina", "Carenagem externa"],
+        correctAnswer: 2
+    },
+    {
+        question: "O que é usado para selar janelas de aeronaves?",
+        options: ["Resinas epóxi", "Selante de poliuretano", "Silicone aeronáutico", "Fita adesiva especial"],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual a principal característica do alumínio usado na aviação?",
+        options: ["Alta densidade", "Resistência à corrosão", "Custo reduzido", "Baixa condutividade térmica"],
+        correctAnswer: 1
+    },
     { 
         question: "Quem realizou o primeiro voo controlado e documentado em um aparelho mais pesado que o ar?", 
         options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Dédalo e Ícaro"], 
@@ -880,6 +1255,724 @@ const conhecimentoQuizData = [
 
 // Dados das questões de Estatuto dos Militares
 const estatutoQuizData = [
+    {
+        question: "Qual é o objetivo principal do Estatuto dos Militares (Lei nº 6.880/1980)?",
+        options: [
+            "Regulamentar as carreiras militares nas polícias estaduais.",
+            "Estabelecer direitos, deveres, obrigações e prerrogativas dos membros das Forças Armadas.",
+            "Garantir a supremacia das Forças Armadas sobre os poderes civis.",
+            "Disciplinar o serviço militar obrigatório e voluntário."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "De acordo com o Art. 2º, as Forças Armadas são compostas por:",
+        options: [
+            "Polícia Federal, Exército e Marinha.",
+            "Exército, Aeronáutica e Polícias Militares.",
+            "Marinha, Exército e Aeronáutica.",
+            "Corpo de Bombeiros, Aeronáutica e Exército."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "A quem se aplica o Estatuto dos Militares, conforme o Art. 8º?",
+        options: [
+            "Apenas aos militares da ativa.",
+            "Aos militares da ativa e da reserva remunerada.",
+            "Aos militares da ativa, reserva remunerada, alunos de formação da reserva e capelães militares.",
+            "Apenas aos oficiais-generais e suboficiais."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual das opções abaixo é uma manifestação essencial do valor militar, segundo o Art. 27?",
+        options: [
+            "A busca por promoção constante.",
+            "O espírito de corpo e orgulho pela organização onde serve.",
+            "A disciplina rígida e autoritária.",
+            "A competição entre unidades militares."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "O ingresso nas Forças Armadas é regulamentado por:",
+        options: [
+            "Decreto presidencial.",
+            "Regulamentos das Forças Armadas e legislação específica.",
+            "O Código Penal Militar.",
+            "Instruções Normativas do Ministério da Defesa."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 14, quais são os pilares das Forças Armadas?",
+        options: [
+            "Hierarquia e disciplina.",
+            "Respeito e competência.",
+            "Ordem e progresso.",
+            "Justiça e igualdade."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Posto é definido como:",
+        options: [
+            "Um cargo ocupado temporariamente por praças.",
+            "O grau hierárquico conferido a oficiais.",
+            "A graduação inicial nas escolas de formação.",
+            "Um cargo administrativo nas Forças Armadas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Quem pode ser considerado militar da ativa?",
+        options: [
+            "Apenas os militares de carreira.",
+            "Os militares de carreira e os temporários convocados.",
+            "Todos os cidadãos brasileiros maiores de 18 anos.",
+            "Apenas os oficiais e suboficiais."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a definição de disciplina militar, segundo o Art. 14?",
+        options: [
+            "A observância integral das normas e regulamentos que fundamentam o funcionamento das Forças Armadas.",
+            "O cumprimento de ordens de superiores, mesmo que contrárias às leis.",
+            "A hierarquização baseada em méritos acadêmicos.",
+            "A obediência incondicional ao comandante supremo."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza a carreira militar, conforme o Art. 5º?",
+        options: [
+            "A dedicação parcial e transitória às finalidades das Forças Armadas.",
+            "A atividade continuada e inteiramente devotada às finalidades das Forças Armadas.",
+            "A realização de cursos de formação obrigatórios para todos os cidadãos.",
+            "A prestação de serviços por contrato temporário."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Conforme o Art. 20, o que é considerado um cargo militar?",
+        options: [
+            "Qualquer função exercida por um civil em âmbito militar.",
+            "Um conjunto de atribuições, deveres e responsabilidades de um militar em serviço ativo.",
+            "Uma posição de liderança temporária.",
+            "Uma função administrativa exercida por militares reformados."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 34, o que é comando no contexto militar?",
+        options: [
+            "A autoridade suprema exercida pelo Presidente da República.",
+            "O conjunto de regras impostas por superiores.",
+            "A soma de autoridade, deveres e responsabilidades de um militar ao conduzir homens ou dirigir uma organização militar.",
+            "A função de gerenciar recursos financeiros nas Forças Armadas."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual das opções abaixo descreve corretamente o conceito de subordinação militar, conforme o Art. 35?",
+        options: [
+            "O respeito às autoridades civis sobre militares.",
+            "A dignidade pessoal afetada pela hierarquia.",
+            "A obediência decorrente exclusivamente da estrutura hierarquizada das Forças Armadas.",
+            "A relação de igualdade entre oficiais e praças."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "De acordo com o Art. 41, sobre o que recai a responsabilidade integral de um militar?",
+        options: [
+            "Pelas decisões tomadas, ordens emitidas e atos praticados.",
+            "Apenas pelos atos administrativos.",
+            "Pela fiscalização do cumprimento das leis pelos subordinados.",
+            "Exclusivamente por crimes militares cometidos."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Quais são os elementos essenciais da ética militar listados no Art. 28?",
+        options: [
+            "Patriotismo, disciplina e amor à profissão das armas.",
+            "Disciplina, hierarquia e cumprimento de ordens superiores.",
+            "Amor à verdade, respeito à dignidade humana e cumprimento das leis.",
+            "Dedicação, hierarquia e obediência incondicional."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "O que é vedado ao militar da ativa, conforme o Art. 29?",
+        options: [
+            "Participar de atividades comerciais e industriais.",
+            "Estudar em instituições civis.",
+            "Realizar atividades físicas fora do quartel.",
+            "Participar de reuniões familiares durante os finais de semana."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "De acordo com o Art. 47, qual é a duração máxima de uma pena disciplinar de prisão para militares?",
+        options: [
+            "15 dias.",
+            "30 dias.",
+            "45 dias.",
+            "60 dias."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 50, qual é um dos direitos garantidos aos militares?",
+        options: [
+            "O exercício de funções políticas partidárias.",
+            "O uso das designações hierárquicas.",
+            "A participação em movimentos grevistas.",
+            "O afastamento permanente por interesse pessoal."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Conforme o Art. 31, o que está incluído nos deveres militares?",
+        options: [
+            "A obediência parcial às normas disciplinares.",
+            "A dedicação e fidelidade à Pátria.",
+            "A hierarquização baseada em mérito acadêmico.",
+            "A exclusão de civis das atividades militares."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o requisito essencial para o ingresso nas Forças Armadas, de acordo com o Art. 10?",
+        options: [
+            "Possuir graduação em ensino superior.",
+            "Preencher os requisitos estabelecidos em lei e regulamentos das Forças Armadas.",
+            "Ter no mínimo 21 anos de idade.",
+            "Ser naturalizado brasileiro há mais de 10 anos."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 18, a precedência entre militares de mesmo grau hierárquico é definida por:",
+        options: [
+            "A ordem alfabética dos nomes.",
+            "A data de nascimento.",
+            "A antiguidade no posto ou graduação.",
+            "A escolha do comandante da unidade."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual é a definição de praça especial, conforme o Art. 16?",
+        options: [
+            "Militares em formação nos cursos de graduação de oficiais e suboficiais.",
+            "Militares reformados que exercem atividades temporárias.",
+            "Oficiais que atuam em missões diplomáticas.",
+            "Militares transferidos para a reserva remunerada."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Conforme o Art. 53, quem é responsável pelo pagamento da remuneração dos militares?",
+        options: [
+            "A unidade militar em que estão lotados.",
+            "O Ministério da Defesa.",
+            "O Tesouro Nacional.",
+            "A Receita Federal."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Segundo o Art. 42, o que constitui uma violação das obrigações ou deveres militares?",
+        options: [
+            "Apenas crimes militares.",
+            "Crimes, contravenções ou transgressões disciplinares.",
+            "Exclusivamente transgressões disciplinares.",
+            "Atos contrários à ética civil."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das alternativas abaixo está prevista no Art. 27 como um atributo essencial do valor militar?",
+        options: [
+            "A busca por vantagens pessoais.",
+            "A fé na missão elevada das Forças Armadas.",
+            "O direito ao porte de armas.",
+            "A participação em atividades políticas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 26, como são designadas obrigações que não estão catalogadas em 'Quadros de Efetivo' ou 'Tabelas de Lotação'?",
+        options: [
+            "Serviços extraordinários.",
+            "Encargo, incumbência, comissão ou atividade militar.",
+            "Funções administrativas temporárias.",
+            "Missões civis paralelas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das alternativas é considerada uma prerrogativa dos militares, conforme o Art. 50?",
+        options: [
+            "A estabilidade após 10 anos de efetivo serviço.",
+            "O afastamento do serviço por tempo indeterminado.",
+            "A participação ativa em sindicatos.",
+            "O exercício de cargos políticos."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Conforme o Art. 46, quem classifica os crimes militares?",
+        options: [
+            "O Código Penal Civil.",
+            "O Código Penal Militar.",
+            "Os regulamentos internos das unidades militares.",
+            "As diretrizes do Ministério da Defesa."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das situações abaixo pode levar ao afastamento de um militar do cargo, conforme o Art. 44?",
+        options: [
+            "Solicitação pessoal do militar.",
+            "Incompatibilidade com o cargo ou incapacidade para o exercício das funções militares.",
+            "Conclusão de cursos de especialização.",
+            "Transferência para outra unidade."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "O que é exigido para que um militar seja promovido, conforme o Estatuto?",
+        options: [
+            "Tempo mínimo de serviço e méritos profissionais.",
+            "Apenas a aprovação em cursos de aperfeiçoamento.",
+            "A recomendação direta do comandante.",
+            "Participação em missões internacionais."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Segundo o Art. 45, quais manifestações são proibidas aos militares?",
+        options: [
+            "Reuniões sociais em locais públicos.",
+            "Qualquer manifestação coletiva, especialmente de caráter político ou reivindicatório.",
+            "Discussões sobre temas técnicos militares em grupos privados.",
+            "Debates públicos sobre a carreira militar."
+        ],
+        correctAnswer: 2
+    },
+    {
+      questions: "Conforme o Art. 36, quais funções são desempenhadas prioritariamente pelos oficiais?",
+        options: ["Administração e logística.", 
+                  "Comando, chefia e direção.", 
+                 "Ensino e pesquisa.", 
+                 "Operações exclusivamente de campo."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "O que caracteriza uma contravenção ou transgressão disciplinar, conforme o Art. 47?",
+        options: ["Qualquer violação do Código Penal Militar.", 
+                  "Atos previstos nos regulamentos disciplinares das Forças Armadas.", 
+                 "Infrações cometidas fora das unidades militares.", 
+                 "Ações que envolvam desrespeito à sociedade civil."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "De acordo com o Art. 22, um cargo militar é considerado vago quando:",
+        options: ["O militar está afastado em missão internacional.", 
+                  "Não há militar designado para ocupá-lo.", 
+                 "O militar está de licença médica.", 
+                 "O militar atinge a idade-limite de permanência."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "Segundo o Art. 50-A, o Sistema de Proteção Social dos Militares inclui:",
+        options: ["Apenas remuneração e pensões.", 
+                  "Direitos, serviços e ações de remuneração, pensão, saúde e assistência.", 
+                 "Benefícios educacionais e culturais.", 
+                 "Apoio exclusivo para militares da ativa."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "Qual é a finalidade dos círculos hierárquicos, conforme o Art. 15?",
+        options: ["Garantir vantagens salariais aos oficiais superiores.", 
+                  "Estabelecer convivência entre militares da mesma categoria para desenvolver camaradagem.", 
+                 "Promover competição saudável entre diferentes graduações.", 
+                 "Identificar possíveis lideranças entre praças."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "O que diferencia a reserva remunerada da reforma, conforme o Estatuto?",
+        options: ["Na reserva, o militar pode ser convocado para a ativa; na reforma, isso não é permitido.", 
+                  "A reserva é aplicável apenas a praças, enquanto a reforma é exclusiva de oficiais.", 
+                 "Militares da reserva perdem todos os direitos hierárquicos.", 
+                 "A reforma ocorre por decisão voluntária do militar."
+        ],
+        correctAnswer: 0
+    },
+    {
+      questions: "Quem pode determinar o afastamento imediato de um militar de suas funções, segundo o Art. 44?",
+        options: ["Qualquer oficial de patente superior.", 
+                  "Apenas o Presidente da República.", 
+                 "Comandantes, chefes ou diretores, conforme legislação específica.", 
+                 "O Superior Tribunal Militar."
+        ],
+        correctAnswer: 2
+    },
+    {
+      questions: "Segundo o Art. 32, o compromisso militar é prestado:",
+        options: ["Durante a formatura do curso básico de treinamento.", 
+                  "Ao ingressar nas Forças Armadas, sob forma de juramento à Bandeira.", 
+                 "Somente ao atingir o posto de oficial.", 
+                 "Quando o militar assume cargo de comando."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "Conforme o Art. 53-A, quem financia a remuneração dos militares?",
+        options: ["As Forças Armadas.", 
+                  "O Ministério da Fazenda.", 
+                 "O Tesouro Nacional.", 
+                 "A Caixa Econômica Federal."
+        ],
+        correctAnswer: 2
+    },
+    {
+      questions: "Qual é a principal característica da hierarquia militar, conforme o Estatuto?",
+        options: ["Basear-se exclusivamente no tempo de serviço.", 
+                  "Estar ordenada por postos e graduações.", 
+                 "Considerar apenas a antiguidade no serviço ativo.", 
+                 "Permitir flexibilidade no respeito às patentes superiores."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "O que é essencial para o cumprimento do dever militar, segundo o Estatuto?",
+        options: ["Iniciativa e independência total em decisões estratégicas.", 
+                  "Acatamento integral das leis, regulamentos e ordens das autoridades competentes.", 
+                 "Conciliação entre vida civil e militar.", 
+                 "Busca constante de promoções e benefícios pessoais."
+        ],
+        correctAnswer: 1
+    },
+    {
+      questions: "Qual é o principal fundamento da disciplina militar, conforme o Art. 14?",
+        options: ["Promover a igualdade entre militares e civis.", 
+                  "Garantir a harmonia e o funcionamento regular do organismo militar.", 
+                 "Proteger os direitos individuais de cada militar.", 
+                 "Facilitar o acesso às promoções hierárquicas."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é o objetivo principal do Estatuto dos Militares (Lei nº 6.880/1980)?",
+        options: [
+            "Regulamentar as carreiras militares nas polícias estaduais.",
+            "Estabelecer direitos, deveres, obrigações e prerrogativas dos membros das Forças Armadas.",
+            "Garantir a supremacia das Forças Armadas sobre os poderes civis.",
+            "Disciplinar o serviço militar obrigatório e voluntário."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "De acordo com o Art. 2º, as Forças Armadas são compostas por:",
+        options: [
+            "Polícia Federal, Exército e Marinha.",
+            "Exército, Aeronáutica e Polícias Militares.",
+            "Marinha, Exército e Aeronáutica.",
+            "Corpo de Bombeiros, Aeronáutica e Exército."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "A quem se aplica o Estatuto dos Militares, conforme o Art. 8º?",
+        options: [
+            "Apenas aos militares da ativa.",
+            "Aos militares da ativa e da reserva remunerada.",
+            "Aos militares da ativa, reserva remunerada, alunos de formação da reserva e capelães militares.",
+            "Apenas aos oficiais-generais e suboficiais."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual das opções abaixo é uma manifestação essencial do valor militar, segundo o Art. 27?",
+        options: [
+            "A busca por promoção constante.",
+            "O espírito de corpo e orgulho pela organização onde serve.",
+            "A disciplina rígida e autoritária.",
+            "A competição entre unidades militares."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "O ingresso nas Forças Armadas é regulamentado por:",
+        options: [
+            "Decreto presidencial.",
+            "Regulamentos das Forças Armadas e legislação específica.",
+            "O Código Penal Militar.",
+            "Instruções Normativas do Ministério da Defesa."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 14, quais são os pilares das Forças Armadas?",
+        options: [
+            "Hierarquia e disciplina.",
+            "Respeito e competência.",
+            "Ordem e progresso.",
+            "Justiça e igualdade."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Posto é definido como:",
+        options: [
+            "Um cargo ocupado temporariamente por praças.",
+            "O grau hierárquico conferido a oficiais.",
+            "A graduação inicial nas escolas de formação.",
+            "Um cargo administrativo nas Forças Armadas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Quem pode ser considerado militar da ativa?",
+        options: [
+            "Apenas os militares de carreira.",
+            "Os militares de carreira e os temporários convocados.",
+            "Todos os cidadãos brasileiros maiores de 18 anos.",
+            "Apenas os oficiais e suboficiais."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a definição de disciplina militar, segundo o Art. 14?",
+        options: [
+            "A observância integral das normas e regulamentos que fundamentam o funcionamento das Forças Armadas.",
+            "O cumprimento de ordens de superiores, mesmo que contrárias às leis.",
+            "A hierarquização baseada em méritos acadêmicos.",
+            "A obediência incondicional ao comandante supremo."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "O que caracteriza a carreira militar, conforme o Art. 5º?",
+        options: [
+            "A dedicação parcial e transitória às finalidades das Forças Armadas.",
+            "A atividade continuada e inteiramente devotada às finalidades das Forças Armadas.",
+            "A realização de cursos de formação obrigatórios para todos os cidadãos.",
+            "A prestação de serviços por contrato temporário."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Conforme o Art. 20, o que é considerado um cargo militar?",
+        options: [
+            "Qualquer função exercida por um civil em âmbito militar.",
+            "Um conjunto de atribuições, deveres e responsabilidades de um militar em serviço ativo.",
+            "Uma posição de liderança temporária.",
+            "Uma função administrativa exercida por militares reformados."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 34, o que é comando no contexto militar?",
+        options: [
+            "A autoridade suprema exercida pelo Presidente da República.",
+            "O conjunto de regras impostas por superiores.",
+            "A soma de autoridade, deveres e responsabilidades de um militar ao conduzir homens ou dirigir uma organização militar.",
+            "A função de gerenciar recursos financeiros nas Forças Armadas."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual das opções abaixo descreve corretamente o conceito de subordinação militar, conforme o Art. 35?",
+        options: [
+            "O respeito às autoridades civis sobre militares.",
+            "A dignidade pessoal afetada pela hierarquia.",
+            "A obediência decorrente exclusivamente da estrutura hierarquizada das Forças Armadas.",
+            "A relação de igualdade entre oficiais e praças."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "De acordo com o Art. 41, sobre o que recai a responsabilidade integral de um militar?",
+        options: [
+            "Pelas decisões tomadas, ordens emitidas e atos praticados.",
+            "Apenas pelos atos administrativos.",
+            "Pela fiscalização do cumprimento das leis pelos subordinados.",
+            "Exclusivamente por crimes militares cometidos."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Quais são os elementos essenciais da ética militar listados no Art. 28?",
+        options: [
+            "Patriotismo, disciplina e amor à profissão das armas.",
+            "Disciplina, hierarquia e cumprimento de ordens superiores.",
+            "Amor à verdade, respeito à dignidade humana e cumprimento das leis.",
+            "Dedicação, hierarquia e obediência incondicional."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "O que é vedado ao militar da ativa, conforme o Art. 29?",
+        options: [
+            "Participar de atividades comerciais e industriais.",
+            "Estudar em instituições civis.",
+            "Realizar atividades físicas fora do quartel.",
+            "Participar de reuniões familiares durante os finais de semana."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "De acordo com o Art. 47, qual é a duração máxima de uma pena disciplinar de prisão para militares?",
+        options: [
+            "15 dias.",
+            "30 dias.",
+            "45 dias.",
+            "60 dias."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 50, qual é um dos direitos garantidos aos militares?",
+        options: [
+            "O exercício de funções políticas partidárias.",
+            "O uso das designações hierárquicas.",
+            "A participação em movimentos grevistas.",
+            "O afastamento permanente por interesse pessoal."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Conforme o Art. 31, o que está incluído nos deveres militares?",
+        options: [
+            "A obediência parcial às normas disciplinares.",
+            "A dedicação e fidelidade à Pátria.",
+            "A hierarquização baseada em mérito acadêmico.",
+            "A exclusão de civis das atividades militares."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é o requisito essencial para o ingresso nas Forças Armadas, de acordo com o Art. 10?",
+        options: [
+            "Possuir graduação em ensino superior.",
+            "Preencher os requisitos estabelecidos em lei e regulamentos das Forças Armadas.",
+            "Ter no mínimo 21 anos de idade.",
+            "Ser naturalizado brasileiro há mais de 10 anos."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 18, a precedência entre militares de mesmo grau hierárquico é definida por:",
+        options: [
+            "A ordem alfabética dos nomes.",
+            "A data de nascimento.",
+            "A antiguidade no posto ou graduação.",
+            "A escolha do comandante da unidade."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Qual é a definição de praça especial, conforme o Art. 16?",
+        options: [
+            "Militares em formação nos cursos de graduação de oficiais e suboficiais.",
+            "Militares reformados que exercem atividades temporárias.",
+            "Oficiais que atuam em missões diplomáticas.",
+            "Militares transferidos para a reserva remunerada."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Conforme o Art. 53, quem é responsável pelo pagamento da remuneração dos militares?",
+        options: [
+            "A unidade militar em que estão lotados.",
+            "O Ministério da Defesa.",
+            "O Tesouro Nacional.",
+            "A Receita Federal."
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Segundo o Art. 42, o que constitui uma violação das obrigações ou deveres militares?",
+        options: [
+            "Apenas crimes militares.",
+            "Crimes, contravenções ou transgressões disciplinares.",
+            "Exclusivamente transgressões disciplinares.",
+            "Atos contrários à ética civil."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das alternativas abaixo está prevista no Art. 27 como um atributo essencial do valor militar?",
+        options: [
+            "A busca por vantagens pessoais.",
+            "A fé na missão elevada das Forças Armadas.",
+            "O direito ao porte de armas.",
+            "A participação em atividades políticas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Segundo o Art. 26, como são designadas obrigações que não estão catalogadas em 'Quadros de Efetivo' ou 'Tabelas de Lotação'?",
+        options: [
+            "Serviços extraordinários.",
+            "Encargo, incumbência, comissão ou atividade militar.",
+            "Funções administrativas temporárias.",
+            "Missões civis paralelas."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das alternativas é considerada uma prerrogativa dos militares, conforme o Art. 50?",
+        options: [
+            "A estabilidade após 10 anos de efetivo serviço.",
+            "O afastamento do serviço por tempo indeterminado.",
+            "A participação ativa em sindicatos.",
+            "O exercício de cargos políticos."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Conforme o Art. 46, quem classifica os crimes militares?",
+        options: [
+            "O Código Penal Civil.",
+            "O Código Penal Militar.",
+            "Os regulamentos internos das unidades militares.",
+            "As diretrizes do Ministério da Defesa."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual das situações abaixo pode levar ao afastamento de um militar do cargo, conforme o Art. 44?",
+        options: [
+            "Solicitação pessoal do militar.",
+            "Incompatibilidade com o cargo ou incapacidade para o exercício das funções militares.",
+            "Conclusão de cursos de especialização.",
+            "Transferência para outra unidade."
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "O que é exigido para que um militar seja promovido, conforme o Estatuto?",
+        options: [
+            "Tempo mínimo de serviço e méritos profissionais.",
+            "Apenas a aprovação em cursos de aperfeiçoamento.",
+            "A recomendação direta do comandante.",
+            "Participação em missões internacionais."
+        ],
+        correctAnswer: 1
+    },
     {
         "question": "Qual é o objetivo principal do Estatuto dos Militares?",
         "options": [

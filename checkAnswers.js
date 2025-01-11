@@ -10,7 +10,13 @@
         risaerQuizData.forEach((questionData, index) => {
             const selectedOption = risaerQuizForm.querySelector(`input[name="risaerQ${index}"]:checked`);
             const questionDiv = risaerQuizForm.querySelector(`.question:nth-of-type(${index + 1})`);
-            
+
+            // Remove mensagens de erro existentes para evitar duplicações
+            const existingCorrectAnswerText = questionDiv.querySelector('.incorrect-answer');
+            if (existingCorrectAnswerText) {
+                existingCorrectAnswerText.remove();
+            }
+
             if (selectedOption) {
                 const selectedValue = parseInt(selectedOption.value);
                 const correctAnswer = questionData.correctAnswer;
@@ -54,6 +60,12 @@
         const selectedOption = rcontQuizForm.querySelector(`input[name="rcontQ${index}"]:checked`);
         const questionDiv = rcontQuizForm.querySelector(`.question:nth-of-type(${index + 1})`);
         
+        // Remove mensagens de erro existentes para evitar duplicações
+        const existingCorrectAnswerText = questionDiv.querySelector('.incorrect-answer');
+        if (existingCorrectAnswerText) {
+            existingCorrectAnswerText.remove();
+        }
+
         if (selectedOption) {
             const selectedValue = parseInt(selectedOption.value);
             const correctAnswer = questionData.correctAnswer;
@@ -97,6 +109,12 @@
         const selectedOption = rdaerQuizForm.querySelector(`input[name="rdaerQ${index}"]:checked`);
         const questionDiv = rdaerQuizForm.querySelector(`.question:nth-of-type(${index + 1})`);
         
+        // Remove mensagens de erro existentes para evitar duplicações
+        const existingCorrectAnswerText = questionDiv.querySelector('.incorrect-answer');
+        if (existingCorrectAnswerText) {
+            existingCorrectAnswerText.remove();
+        }
+
         if (selectedOption) {
             const selectedValue = parseInt(selectedOption.value);
             const correctAnswer = questionData.correctAnswer;
@@ -140,6 +158,12 @@
         const selectedOption = conhecimentoQuizForm.querySelector(`input[name="conhecimentoQ${index}"]:checked`);
         const questionDiv = conhecimentoQuizForm.querySelector(`.question:nth-of-type(${index + 1})`);
         
+        // Remove mensagens de erro existentes para evitar duplicações
+        const existingCorrectAnswerText = questionDiv.querySelector('.incorrect-answer');
+        if (existingCorrectAnswerText) {
+            existingCorrectAnswerText.remove();
+        }
+
         if (selectedOption) {
             const selectedValue = parseInt(selectedOption.value);
             const correctAnswer = questionData.correctAnswer;
@@ -183,6 +207,12 @@
         const selectedOption = estatutoQuizForm.querySelector(`input[name="estatutoQ${index}"]:checked`);
         const questionDiv = estatutoQuizForm.querySelector(`.question:nth-of-type(${index + 1})`);
         
+        // Remove mensagens de erro existentes para evitar duplicações
+        const existingCorrectAnswerText = questionDiv.querySelector('.incorrect-answer');
+        if (existingCorrectAnswerText) {
+            existingCorrectAnswerText.remove();
+        }
+
         if (selectedOption) {
             const selectedValue = parseInt(selectedOption.value);
             const correctAnswer = questionData.correctAnswer;
