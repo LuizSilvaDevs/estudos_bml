@@ -9,5 +9,9 @@ const users = [
   {
       username: 'cabosblm',
       password: 'cabosblm'
+  },
+  {
+    username: 'cfc2025',
+    password: 'cfc2025'
   }
 ];
