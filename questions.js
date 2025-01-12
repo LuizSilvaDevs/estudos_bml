@@ -1283,7 +1283,7 @@ const estatutoQuizData = [
             "Aos militares da ativa, reserva remunerada, alunos de formação da reserva e capelães militares.",
             "Apenas aos oficiais-generais e suboficiais."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "Qual das opções abaixo é uma manifestação essencial do valor militar, segundo o Art. 27?",
@@ -1293,7 +1293,7 @@ const estatutoQuizData = [
             "A disciplina rígida e autoritária.",
             "A competição entre unidades militares."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "O ingresso nas Forças Armadas é regulamentado por:",
@@ -1303,7 +1303,7 @@ const estatutoQuizData = [
             "O Código Penal Militar.",
             "Instruções Normativas do Ministério da Defesa."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Segundo o Art. 14, quais são os pilares das Forças Armadas?",
@@ -1313,7 +1313,7 @@ const estatutoQuizData = [
             "Ordem e progresso.",
             "Justiça e igualdade."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Posto é definido como:",
@@ -1323,7 +1323,7 @@ const estatutoQuizData = [
             "A graduação inicial nas escolas de formação.",
             "Um cargo administrativo nas Forças Armadas."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Quem pode ser considerado militar da ativa?",
@@ -1333,7 +1333,7 @@ const estatutoQuizData = [
             "Todos os cidadãos brasileiros maiores de 18 anos.",
             "Apenas os oficiais e suboficiais."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Qual é a definição de disciplina militar, segundo o Art. 14?",
@@ -1343,7 +1343,7 @@ const estatutoQuizData = [
             "A hierarquização baseada em méritos acadêmicos.",
             "A obediência incondicional ao comandante supremo."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "O que caracteriza a carreira militar, conforme o Art. 5º?",
@@ -1353,7 +1353,7 @@ const estatutoQuizData = [
             "A realização de cursos de formação obrigatórios para todos os cidadãos.",
             "A prestação de serviços por contrato temporário."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Conforme o Art. 20, o que é considerado um cargo militar?",
@@ -1363,7 +1363,7 @@ const estatutoQuizData = [
             "Uma posição de liderança temporária.",
             "Uma função administrativa exercida por militares reformados."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Segundo o Art. 34, o que é comando no contexto militar?",
@@ -1373,7 +1373,7 @@ const estatutoQuizData = [
             "A soma de autoridade, deveres e responsabilidades de um militar ao conduzir homens ou dirigir uma organização militar.",
             "A função de gerenciar recursos financeiros nas Forças Armadas."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "Qual das opções abaixo descreve corretamente o conceito de subordinação militar, conforme o Art. 35?",
@@ -1383,7 +1383,7 @@ const estatutoQuizData = [
             "A obediência decorrente exclusivamente da estrutura hierarquizada das Forças Armadas.",
             "A relação de igualdade entre oficiais e praças."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "De acordo com o Art. 41, sobre o que recai a responsabilidade integral de um militar?",
@@ -1393,7 +1393,7 @@ const estatutoQuizData = [
             "Pela fiscalização do cumprimento das leis pelos subordinados.",
             "Exclusivamente por crimes militares cometidos."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Quais são os elementos essenciais da ética militar listados no Art. 28?",
@@ -1403,7 +1403,7 @@ const estatutoQuizData = [
             "Amor à verdade, respeito à dignidade humana e cumprimento das leis.",
             "Dedicação, hierarquia e obediência incondicional."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "O que é vedado ao militar da ativa, conforme o Art. 29?",
@@ -1413,7 +1413,7 @@ const estatutoQuizData = [
             "Realizar atividades físicas fora do quartel.",
             "Participar de reuniões familiares durante os finais de semana."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "De acordo com o Art. 47, qual é a duração máxima de uma pena disciplinar de prisão para militares?",
@@ -1423,7 +1423,7 @@ const estatutoQuizData = [
             "45 dias.",
             "60 dias."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Segundo o Art. 50, qual é um dos direitos garantidos aos militares?",
@@ -1433,7 +1433,7 @@ const estatutoQuizData = [
             "A participação em movimentos grevistas.",
             "O afastamento permanente por interesse pessoal."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Conforme o Art. 31, o que está incluído nos deveres militares?",
@@ -1443,7 +1443,7 @@ const estatutoQuizData = [
             "A hierarquização baseada em mérito acadêmico.",
             "A exclusão de civis das atividades militares."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Qual é o requisito essencial para o ingresso nas Forças Armadas, de acordo com o Art. 10?",
@@ -1453,17 +1453,17 @@ const estatutoQuizData = [
             "Ter no mínimo 21 anos de idade.",
             "Ser naturalizado brasileiro há mais de 10 anos."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
-        question: "Segundo o Art. 18, a precedência entre militares de mesmo grau hierárquico é definida por:",
+        question: "Segundo o Art. 17, a precedência entre militares de mesmo grau hierárquico é definida por:",
         options: [
             "A ordem alfabética dos nomes.",
             "A data de nascimento.",
             "A antiguidade no posto ou graduação.",
             "A escolha do comandante da unidade."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "Qual é a definição de praça especial, conforme o Art. 16?",
@@ -1473,7 +1473,7 @@ const estatutoQuizData = [
             "Oficiais que atuam em missões diplomáticas.",
             "Militares transferidos para a reserva remunerada."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Conforme o Art. 53, quem é responsável pelo pagamento da remuneração dos militares?",
@@ -1493,7 +1493,7 @@ const estatutoQuizData = [
             "Exclusivamente transgressões disciplinares.",
             "Atos contrários à ética civil."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Qual das alternativas abaixo está prevista no Art. 27 como um atributo essencial do valor militar?",
@@ -1503,7 +1503,7 @@ const estatutoQuizData = [
             "O direito ao porte de armas.",
             "A participação em atividades políticas."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Segundo o Art. 26, como são designadas obrigações que não estão catalogadas em 'Quadros de Efetivo' ou 'Tabelas de Lotação'?",
@@ -1513,7 +1513,7 @@ const estatutoQuizData = [
             "Funções administrativas temporárias.",
             "Missões civis paralelas."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Qual das alternativas é considerada uma prerrogativa dos militares, conforme o Art. 50?",
@@ -1523,7 +1523,7 @@ const estatutoQuizData = [
             "A participação ativa em sindicatos.",
             "O exercício de cargos políticos."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Conforme o Art. 46, quem classifica os crimes militares?",
@@ -1533,7 +1533,7 @@ const estatutoQuizData = [
             "Os regulamentos internos das unidades militares.",
             "As diretrizes do Ministério da Defesa."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "Qual das situações abaixo pode levar ao afastamento de um militar do cargo, conforme o Art. 44?",
@@ -1543,7 +1543,7 @@ const estatutoQuizData = [
             "Conclusão de cursos de especialização.",
             "Transferência para outra unidade."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "O que é exigido para que um militar seja promovido, conforme o Estatuto?",
@@ -1553,7 +1553,7 @@ const estatutoQuizData = [
             "A recomendação direta do comandante.",
             "Participação em missões internacionais."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Segundo o Art. 45, quais manifestações são proibidas aos militares?",
@@ -1563,28 +1563,28 @@ const estatutoQuizData = [
             "Discussões sobre temas técnicos militares em grupos privados.",
             "Debates públicos sobre a carreira militar."
         ],
+        correctAnswer: 1
+    },
+    {
+        question: "Conforme o Art. 36, quais funções são desempenhadas prioritariamente pelos oficiais?",
+          options: ["Administração e logística.", 
+                    "Comando, chefia e direção.", 
+                   "Ensino e pesquisa.", 
+                   "Operações exclusivamente de campo."
+          ],
+          correctAnswer: 1
+      },
+    {
+      question: "O que caracteriza uma contravenção ou transgressão disciplinar, conforme o Art. 47?",
+        options: ["Qualquer violação do Código Penal Militar.", 
+                  "Atos previstos nos regulamentos disciplinares das Forças Armadas.", 
+                 "Infrações cometidas dentro e fora das unidades militares.", 
+                 "Ações que envolvam a dignidade humana e os direitos humanos   ."
+        ],
         correctAnswer: 2
     },
     {
-      questions: "Conforme o Art. 36, quais funções são desempenhadas prioritariamente pelos oficiais?",
-        options: ["Administração e logística.", 
-                  "Comando, chefia e direção.", 
-                 "Ensino e pesquisa.", 
-                 "Operações exclusivamente de campo."
-        ],
-        correctAnswer: 1
-    },
-    {
-      questions: "O que caracteriza uma contravenção ou transgressão disciplinar, conforme o Art. 47?",
-        options: ["Qualquer violação do Código Penal Militar.", 
-                  "Atos previstos nos regulamentos disciplinares das Forças Armadas.", 
-                 "Infrações cometidas fora das unidades militares.", 
-                 "Ações que envolvam desrespeito à sociedade civil."
-        ],
-        correctAnswer: 1
-    },
-    {
-      questions: "De acordo com o Art. 22, um cargo militar é considerado vago quando:",
+      question: "De acordo com o Art. 22, um cargo militar é considerado vago quando:",
         options: ["O militar está afastado em missão internacional.", 
                   "Não há militar designado para ocupá-lo.", 
                  "O militar está de licença médica.", 
@@ -1593,7 +1593,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "Segundo o Art. 50-A, o Sistema de Proteção Social dos Militares inclui:",
+      question: "Segundo o Art. 50-A, o Sistema de Proteção Social dos Militares inclui:",
         options: ["Apenas remuneração e pensões.", 
                   "Direitos, serviços e ações de remuneração, pensão, saúde e assistência.", 
                  "Benefícios educacionais e culturais.", 
@@ -1602,7 +1602,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "Qual é a finalidade dos círculos hierárquicos, conforme o Art. 15?",
+      question: "Qual é a finalidade dos círculos hierárquicos, conforme o Art. 15?",
         options: ["Garantir vantagens salariais aos oficiais superiores.", 
                   "Estabelecer convivência entre militares da mesma categoria para desenvolver camaradagem.", 
                  "Promover competição saudável entre diferentes graduações.", 
@@ -1611,7 +1611,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "O que diferencia a reserva remunerada da reforma, conforme o Estatuto?",
+      question: "O que diferencia a reserva remunerada da reforma, conforme o Estatuto?",
         options: ["Na reserva, o militar pode ser convocado para a ativa; na reforma, isso não é permitido.", 
                   "A reserva é aplicável apenas a praças, enquanto a reforma é exclusiva de oficiais.", 
                  "Militares da reserva perdem todos os direitos hierárquicos.", 
@@ -1620,7 +1620,7 @@ const estatutoQuizData = [
         correctAnswer: 0
     },
     {
-      questions: "Quem pode determinar o afastamento imediato de um militar de suas funções, segundo o Art. 44?",
+      question: "Quem pode determinar o afastamento imediato de um militar de suas funções, segundo o Art. 44?",
         options: ["Qualquer oficial de patente superior.", 
                   "Apenas o Presidente da República.", 
                  "Comandantes, chefes ou diretores, conforme legislação específica.", 
@@ -1629,7 +1629,7 @@ const estatutoQuizData = [
         correctAnswer: 2
     },
     {
-      questions: "Segundo o Art. 32, o compromisso militar é prestado:",
+      question: "Segundo o Art. 32, o compromisso militar é prestado:",
         options: ["Durante a formatura do curso básico de treinamento.", 
                   "Ao ingressar nas Forças Armadas, sob forma de juramento à Bandeira.", 
                  "Somente ao atingir o posto de oficial.", 
@@ -1638,7 +1638,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "Conforme o Art. 53-A, quem financia a remuneração dos militares?",
+      question: "Conforme o Art. 53-A, quem financia a remuneração dos militares?",
         options: ["As Forças Armadas.", 
                   "O Ministério da Fazenda.", 
                  "O Tesouro Nacional.", 
@@ -1647,7 +1647,7 @@ const estatutoQuizData = [
         correctAnswer: 2
     },
     {
-      questions: "Qual é a principal característica da hierarquia militar, conforme o Estatuto?",
+      question: "Qual é a principal característica da hierarquia militar, conforme o Estatuto?",
         options: ["Basear-se exclusivamente no tempo de serviço.", 
                   "Estar ordenada por postos e graduações.", 
                  "Considerar apenas a antiguidade no serviço ativo.", 
@@ -1656,7 +1656,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "O que é essencial para o cumprimento do dever militar, segundo o Estatuto?",
+      question: "O que é essencial para o cumprimento do dever militar, segundo o Estatuto?",
         options: ["Iniciativa e independência total em decisões estratégicas.", 
                   "Acatamento integral das leis, regulamentos e ordens das autoridades competentes.", 
                  "Conciliação entre vida civil e militar.", 
@@ -1665,7 +1665,7 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-      questions: "Qual é o principal fundamento da disciplina militar, conforme o Art. 14?",
+      question: "Qual é o principal fundamento da disciplina militar, conforme o Art. 14?",
         options: ["Promover a igualdade entre militares e civis.", 
                   "Garantir a harmonia e o funcionamento regular do organismo militar.", 
                  "Proteger os direitos individuais de cada militar.", 
@@ -1674,104 +1674,34 @@ const estatutoQuizData = [
         correctAnswer: 1
     },
     {
-        question: "Qual é o objetivo principal do Estatuto dos Militares (Lei nº 6.880/1980)?",
+        question: "Qual é o objetivo principal do Estatuto dos Militares (Lei nº 6.880/1980) exceto:",
         options: [
-            "Regulamentar as carreiras militares nas polícias estaduais.",
-            "Estabelecer direitos, deveres, obrigações e prerrogativas dos membros das Forças Armadas.",
-            "Garantir a supremacia das Forças Armadas sobre os poderes civis.",
-            "Disciplinar o serviço militar obrigatório e voluntário."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "De acordo com o Art. 2º, as Forças Armadas são compostas por:",
-        options: [
-            "Polícia Federal, Exército e Marinha.",
-            "Exército, Aeronáutica e Polícias Militares.",
-            "Marinha, Exército e Aeronáutica.",
-            "Corpo de Bombeiros, Aeronáutica e Exército."
+            "Estabelecer direitos e deveres, obrigações e prerrogativas dos membros das Forças Armadas.",
+            "Estabelecer obrigações.",
+            "Estabelecer prerrogativas dos membros das Forças Armadas.",
+            "Estabelcer a Disciplina do serviço militar obrigatório e voluntário."
         ],
         correctAnswer: 3
     },
     {
-        question: "A quem se aplica o Estatuto dos Militares, conforme o Art. 8º?",
+        question: "Qual das opções abaixo não condiz com um valor militar, segundo o Art. 27?",
         options: [
-            "Apenas aos militares da ativa.",
-            "Aos militares da ativa e da reserva remunerada.",
-            "Aos militares da ativa, reserva remunerada, alunos de formação da reserva e capelães militares.",
-            "Apenas aos oficiais-generais e suboficiais."
-        ],
-        correctAnswer: 3
-    },
-    {
-        question: "Qual das opções abaixo é uma manifestação essencial do valor militar, segundo o Art. 27?",
-        options: [
-            "A busca por promoção constante.",
+            "O civismo e o culto das tradições históricas",
             "O espírito de corpo e orgulho pela organização onde serve.",
-            "A disciplina rígida e autoritária.",
+            "A fé na missão elevada das Forças Armadas",
             "A competição entre unidades militares."
         ],
-        correctAnswer: 2
+        correctAnswer: 2   
     },
     {
-        question: "O ingresso nas Forças Armadas é regulamentado por:",
-        options: [
-            "Decreto presidencial.",
-            "Regulamentos das Forças Armadas e legislação específica.",
-            "O Código Penal Militar.",
-            "Instruções Normativas do Ministério da Defesa."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Segundo o Art. 14, quais são os pilares das Forças Armadas?",
-        options: [
-            "Hierarquia e disciplina.",
-            "Respeito e competência.",
-            "Ordem e progresso.",
-            "Justiça e igualdade."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Posto é definido como:",
+        question: "Graduação é definido como:",
         options: [
             "Um cargo ocupado temporariamente por praças.",
-            "O grau hierárquico conferido a oficiais.",
+            "O grau hierárquico conferido a Sub-Oficiais, Sargentos e Cabos.",
             "A graduação inicial nas escolas de formação.",
             "Um cargo administrativo nas Forças Armadas."
         ],
-        correctAnswer: 2
-    },
-    {
-        question: "Quem pode ser considerado militar da ativa?",
-        options: [
-            "Apenas os militares de carreira.",
-            "Os militares de carreira e os temporários convocados.",
-            "Todos os cidadãos brasileiros maiores de 18 anos.",
-            "Apenas os oficiais e suboficiais."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é a definição de disciplina militar, segundo o Art. 14?",
-        options: [
-            "A observância integral das normas e regulamentos que fundamentam o funcionamento das Forças Armadas.",
-            "O cumprimento de ordens de superiores, mesmo que contrárias às leis.",
-            "A hierarquização baseada em méritos acadêmicos.",
-            "A obediência incondicional ao comandante supremo."
-        ],
         correctAnswer: 1
-    },
-    {
-        question: "O que caracteriza a carreira militar, conforme o Art. 5º?",
-        options: [
-            "A dedicação parcial e transitória às finalidades das Forças Armadas.",
-            "A atividade continuada e inteiramente devotada às finalidades das Forças Armadas.",
-            "A realização de cursos de formação obrigatórios para todos os cidadãos.",
-            "A prestação de serviços por contrato temporário."
-        ],
-        correctAnswer: 2
     },
     {
         question: "Conforme o Art. 20, o que é considerado um cargo militar?",
@@ -1784,114 +1714,24 @@ const estatutoQuizData = [
         correctAnswer: 2
     },
     {
-        question: "Segundo o Art. 34, o que é comando no contexto militar?",
+        question: "Qual das opções abaixo não descreve corretamente o conceito de subordinação militar, conforme o Art. 35?",
         options: [
-            "A autoridade suprema exercida pelo Presidente da República.",
-            "O conjunto de regras impostas por superiores.",
-            "A soma de autoridade, deveres e responsabilidades de um militar ao conduzir homens ou dirigir uma organização militar.",
-            "A função de gerenciar recursos financeiros nas Forças Armadas."
-        ],
-        correctAnswer: 3
-    },
-    {
-        question: "Qual das opções abaixo descreve corretamente o conceito de subordinação militar, conforme o Art. 35?",
-        options: [
-            "O respeito às autoridades civis sobre militares.",
-            "A dignidade pessoal afetada pela hierarquia.",
+            "O respeito aos superiores hierárquicos e subordinados ",
+            "A execução de ordens de um superior hierárquico segundo as leis militares",
             "A obediência decorrente exclusivamente da estrutura hierarquizada das Forças Armadas.",
             "A relação de igualdade entre oficiais e praças."
         ],
-        correctAnswer: 3
+        correctAnswer: 4
     },
     {
-        question: "De acordo com o Art. 41, sobre o que recai a responsabilidade integral de um militar?",
+        question: "De acordo com o Art. 41, sobre o que recai a responsabilidade integral de um militar exceto:",
         options: [
             "Pelas decisões tomadas, ordens emitidas e atos praticados.",
-            "Apenas pelos atos administrativos.",
+            "Por ordens emitidas",
             "Pela fiscalização do cumprimento das leis pelos subordinados.",
-            "Exclusivamente por crimes militares cometidos."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Quais são os elementos essenciais da ética militar listados no Art. 28?",
-        options: [
-            "Patriotismo, disciplina e amor à profissão das armas.",
-            "Disciplina, hierarquia e cumprimento de ordens superiores.",
-            "Amor à verdade, respeito à dignidade humana e cumprimento das leis.",
-            "Dedicação, hierarquia e obediência incondicional."
-        ],
-        correctAnswer: 3
-    },
-    {
-        question: "O que é vedado ao militar da ativa, conforme o Art. 29?",
-        options: [
-            "Participar de atividades comerciais e industriais.",
-            "Estudar em instituições civis.",
-            "Realizar atividades físicas fora do quartel.",
-            "Participar de reuniões familiares durante os finais de semana."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "De acordo com o Art. 47, qual é a duração máxima de uma pena disciplinar de prisão para militares?",
-        options: [
-            "15 dias.",
-            "30 dias.",
-            "45 dias.",
-            "60 dias."
+            "Pelos atos praticados"
         ],
         correctAnswer: 2
-    },
-    {
-        question: "Segundo o Art. 50, qual é um dos direitos garantidos aos militares?",
-        options: [
-            "O exercício de funções políticas partidárias.",
-            "O uso das designações hierárquicas.",
-            "A participação em movimentos grevistas.",
-            "O afastamento permanente por interesse pessoal."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Conforme o Art. 31, o que está incluído nos deveres militares?",
-        options: [
-            "A obediência parcial às normas disciplinares.",
-            "A dedicação e fidelidade à Pátria.",
-            "A hierarquização baseada em mérito acadêmico.",
-            "A exclusão de civis das atividades militares."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é o requisito essencial para o ingresso nas Forças Armadas, de acordo com o Art. 10?",
-        options: [
-            "Possuir graduação em ensino superior.",
-            "Preencher os requisitos estabelecidos em lei e regulamentos das Forças Armadas.",
-            "Ter no mínimo 21 anos de idade.",
-            "Ser naturalizado brasileiro há mais de 10 anos."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Segundo o Art. 18, a precedência entre militares de mesmo grau hierárquico é definida por:",
-        options: [
-            "A ordem alfabética dos nomes.",
-            "A data de nascimento.",
-            "A antiguidade no posto ou graduação.",
-            "A escolha do comandante da unidade."
-        ],
-        correctAnswer: 3
-    },
-    {
-        question: "Qual é a definição de praça especial, conforme o Art. 16?",
-        options: [
-            "Militares em formação nos cursos de graduação de oficiais e suboficiais.",
-            "Militares reformados que exercem atividades temporárias.",
-            "Oficiais que atuam em missões diplomáticas.",
-            "Militares transferidos para a reserva remunerada."
-        ],
-        correctAnswer: 1
     },
     {
         question: "Conforme o Art. 53, quem é responsável pelo pagamento da remuneração dos militares?",
@@ -1901,77 +1741,7 @@ const estatutoQuizData = [
             "O Tesouro Nacional.",
             "A Receita Federal."
         ],
-        correctAnswer: 3
-    },
-    {
-        question: "Segundo o Art. 42, o que constitui uma violação das obrigações ou deveres militares?",
-        options: [
-            "Apenas crimes militares.",
-            "Crimes, contravenções ou transgressões disciplinares.",
-            "Exclusivamente transgressões disciplinares.",
-            "Atos contrários à ética civil."
-        ],
         correctAnswer: 2
-    },
-    {
-        question: "Qual das alternativas abaixo está prevista no Art. 27 como um atributo essencial do valor militar?",
-        options: [
-            "A busca por vantagens pessoais.",
-            "A fé na missão elevada das Forças Armadas.",
-            "O direito ao porte de armas.",
-            "A participação em atividades políticas."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Segundo o Art. 26, como são designadas obrigações que não estão catalogadas em 'Quadros de Efetivo' ou 'Tabelas de Lotação'?",
-        options: [
-            "Serviços extraordinários.",
-            "Encargo, incumbência, comissão ou atividade militar.",
-            "Funções administrativas temporárias.",
-            "Missões civis paralelas."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual das alternativas é considerada uma prerrogativa dos militares, conforme o Art. 50?",
-        options: [
-            "A estabilidade após 10 anos de efetivo serviço.",
-            "O afastamento do serviço por tempo indeterminado.",
-            "A participação ativa em sindicatos.",
-            "O exercício de cargos políticos."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Conforme o Art. 46, quem classifica os crimes militares?",
-        options: [
-            "O Código Penal Civil.",
-            "O Código Penal Militar.",
-            "Os regulamentos internos das unidades militares.",
-            "As diretrizes do Ministério da Defesa."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual das situações abaixo pode levar ao afastamento de um militar do cargo, conforme o Art. 44?",
-        options: [
-            "Solicitação pessoal do militar.",
-            "Incompatibilidade com o cargo ou incapacidade para o exercício das funções militares.",
-            "Conclusão de cursos de especialização.",
-            "Transferência para outra unidade."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "O que é exigido para que um militar seja promovido, conforme o Estatuto?",
-        options: [
-            "Tempo mínimo de serviço e méritos profissionais.",
-            "Apenas a aprovação em cursos de aperfeiçoamento.",
-            "A recomendação direta do comandante.",
-            "Participação em missões internacionais."
-        ],
-        correctAnswer: 1
     },
     {
         "question": "Qual é o objetivo principal do Estatuto dos Militares?",
@@ -2276,8 +2046,8 @@ const estatutoQuizData = [
     {
         "question": "A condição 'na ativa' refere-se a:",
         "options": [
-            "Militares que estão em treinamento civil",
-            "Militares que prestam serviços temporários fora das Forças Armadas",
+            "Militares desligados que estão em treinamento civil",
+            "Militares reformados que prestam serviços temporários fora das Forças Armadas",
             "Militares que exercem funções, cargos ou atividades militares ativas",
             "Militares aposentados que ainda recebem salário"
         ],
@@ -2287,7 +2057,7 @@ const estatutoQuizData = [
         "question": "O que define o grau hierárquico do oficial?",
         "options": [
             "O tempo de serviço civil",
-            "O ato do Presidente da República ou Ministro de Força Singular",
+            "Definidas em legislação ou regulamentação específicas.",
             "O desempenho em atividades acadêmicas",
             "O número de missões cumpridas"
         ],
@@ -2300,16 +2070,6 @@ const estatutoQuizData = [
             "Os Cabos",
             "Os Generais",
             "Os Tenentes"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "Qual artigo estabelece que os militares são servidores da Pátria?",
-        "options": [
-            "Artigo 1º",
-            "Artigo 3º",
-            "Artigo 5º",
-            "Artigo 7º"
         ],
         "correctAnswer": 0
     },
@@ -2384,16 +2144,6 @@ const estatutoQuizData = [
         "correctAnswer": 1
     },
     {
-        "question": "Qual artigo menciona as condições para matrícula em estabelecimentos de ensino militar?",
-        "options": [
-            "Artigo 10",
-            "Artigo 11",
-            "Artigo 12",
-            "Artigo 13"
-        ],
-        "correctAnswer": 2
-    },
-    {
         "question": "A disciplina deve ser mantida entre quais grupos?",
         "options": [
             "Apenas entre os oficiais superiores",
@@ -2411,7 +2161,7 @@ const estatutoQuizData = [
             "Necessidade urgente reconhecida pelo Presidente",
             "Licença especial concedida"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 1
     },
     {
         "question": "O que caracteriza a carreira militar?",
@@ -2424,26 +2174,6 @@ const estatutoQuizData = [
         "correctAnswer": 1
     },
     {
-        "question": "Qual artigo menciona as disposições preliminares do Estatuto dos Militares?",
-        "options": [
-            "Artigo 1º",
-            "Artigo 2º",
-            "Artigo 3º",
-            "Artigo 4º"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "O que caracteriza um cargo militar como vago?",
-        "options": [
-            "Cargo criado, mas não ocupado",
-            "Cargo ocupado por um oficial em licença",
-            "Cargo temporariamente desativado",
-            "Cargo não regulamentado"
-        ],
-        "correctAnswer": 0
-    },
-    {
         question: "Qual é a principal definição de militar, conforme o Estatuto dos Militares?",
         options: [
             "Todo cidadão que participa de missões de paz internacional",
@@ -2452,16 +2182,6 @@ const estatutoQuizData = [
             "Apenas oficiais que cumprem funções administrativas"
         ],
         correctAnswer: 2
-    },
-    {
-        question: "As Forças Armadas são constituídas por:",
-        options: [
-            "Exército, Marinha, Aeronáutica e Polícia Militar",
-            "Exército, Marinha e Aeronáutica",
-            "Polícia Federal, Marinha e Exército",
-            "Exército, Aeronáutica e Corpo de Bombeiros"
-        ],
-        correctAnswer: 1
     },
     {
         question: "Entre os deveres fundamentais do militar está:",
@@ -2538,7 +2258,7 @@ const estatutoQuizData = [
         options: [
             "Adotar postura de neutralidade em conflitos políticos",
             "Declarar-se em estado de greve",
-            "Defender direitos fundamentais básicos",
+            "Defender a soberania do pais",
             "Seguir normas hierárquicas divergentes"
         ],
         correctAnswer: 1
