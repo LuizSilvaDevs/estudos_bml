@@ -317,6 +317,7 @@ const risaerQuizData = [
 ];
 
 // Dados das questões de Rcont
+//Questões conferidas e atualizadas, total de 20 questões!
 const rcontQuizData = [
     {
         question: "Qual é a finalidade do Regulamento de Continências, Honras, Sinais de Respeito e Cerimonial Militar das Forças Armadas?",
@@ -496,7 +497,7 @@ const rcontQuizData = [
             "Levantar-se, se estiver na mesa da autoridade.",
             "Continuar a refeição normalmente."
         ],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "A continência à Bandeira Nacional deve ser feita:",
@@ -521,6 +522,7 @@ const rcontQuizData = [
 ];
 
 // Dados das questões de Rdaer
+//Questões conferidas e atualizadas, total de 20 questões!
 const rdaerQuizData = [
     {
         question: "Qual é a abrangência do RDAER conforme o Art. 1º?",
@@ -1254,6 +1256,7 @@ const conhecimentoQuizData = [
 ];
 
 // Dados das questões de Estatuto dos Militares
+//Questões conferidas e atualizadas, total de 102 questões!
 const estatutoQuizData = [
     {
         question: "Qual é o objetivo principal do Estatuto dos Militares (Lei nº 6.880/1980)?",
