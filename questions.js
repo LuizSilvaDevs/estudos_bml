@@ -312,6 +312,56 @@ const risaerQuizData = [
             "Participar de todas as reuniões administrativas da OM."
         ],
         correctAnswer: 2
+    },
+    {
+        question: "O Serviço de Escala, conforme o RISAER, é caracterizado por:",
+        options: ["Ter duração de 12 horas em operações regulares.", "Ser atribuído exclusivamente a oficiais superiores.", "Ser uma atividade publicada em Boletim Interno.", "Excluir atividades técnicas ou operacionais."],
+        correctAnswer: 2
+    },
+    {
+        question: "Para serviços de natureza técnica e operacional, o RISAER prevê:",
+        options: ["Escalas com duração máxima de 6 horas.", "Escalas diferenciadas devido ao desgaste físico.", "A exclusão de militares que não sejam especializados.", "A aplicação de regras fixas e inflexíveis."],
+        correctAnswer: 1
+    },
+    {
+        question: "O Oficial de Dia (OD) é responsável por:",
+        options: ["Supervisionar exclusivamente atividades administrativas", "Coordenar a segurança e a defesa da Organização Militar.", "Emitir Boletins Internos para escalas de serviços.", "Cumprir apenas ordens oriundas de comandantes gerais."],
+        correctAnswer: 1
+    },
+    {
+        question: "O Superior de Dia é designado em situações:",
+        options: ["De prontidão parcial ou total.", "Exclusivamente em tempos de paz.", "Onde não há Oficiais de Dia disponíveis.", "De inspeções administrativas regulares."],
+        correctAnswer: 0
+    },
+    {
+        question: "O serviço de Oficial de Operações é atribuído:",
+        options: ["A cabos e soldados em período de treinamento.", "Exclusivamente a oficiais aviadores.", "Apenas durante manobras militares.", "A oficiais de qualquer quadro em caráter excepcional."],
+        correctAnswer: 1
+    },
+    {
+        question: "A supervisão do cerimonial de entrada de serviço é de responsabilidade:",
+        options: ["Do Comandante da Guarda.", "Do setor responsável pelo cerimonial militar.", "Do Oficial de Permanência Operacional.", "Do Oficial de Operações."],
+        correctAnswer: 1
+    },
+    {
+        question: "O Comandante da Guarda deve, EXCETO:",
+        options: ["Conferir presos sob sua guarda.", "Supervisionar as sentinelas em serviço.", "Fiscalizar a segurança de dependências.", "Realizar rondas em áreas externas à OM."],
+        correctAnswer: 3
+    },
+    {
+        question: "O livro de ocorrências do serviço é utilizado para:",
+        options: ["Registrar alterações e medidas adotadas no serviço.", "Registrar exclusivamente inspeções de superiores.", "Manter apenas registros administrativos.", "Comunicar alterações ao comando de escalas."],
+        correctAnswer: 0
+    },
+    {
+        question: "O serviço de sobreaviso, conforme o RISAER, é caracterizado por:",
+        options: ["Substituir o serviço regular de escala.", "Exigir permanência em local previamente definido.", "Dispensar a presença de militares em horários de expediente.", "Ser aplicado apenas em manobras aéreas."],
+        correctAnswer: 1
+    },
+    {
+        question: "Nos serviços de escala, deve ser observada uma folga mínima:",
+        options: ["De 48 horas entre serviços.", "De 24 horas após um turno de 12 horas.", "De 72 horas para serviços de prontidão total.", "De 36 horas para escalas operacionais."],
+        correctAnswer: 0
     }
     
 ];
@@ -518,6 +568,31 @@ const rcontQuizData = [
             "Apenas dizendo 'até logo'."
         ],
         correctAnswer: 1
+    },
+    {
+        question: "A continência é definida como:",
+        options: ["Um ato de respeito mútuo entre militares.", "Uma saudação prestada exclusivamente a superiores.", "Um gesto obrigatório apenas em solenidades.", "Um procedimento facultativo em tempos de paz."],
+        correctAnswer: 0
+    },
+    {
+        question: "A continência deve ser feita ao Hino Nacional em quais situações?",
+        options: ["Durante cerimônias religiosas.", "Quando executado em solenidades cívico-militares.", "Apenas quando tocado por banda oficial.", "Exclusivamente em formaturas."],
+        correctAnswer: 1
+    },
+    {
+        question: "Em relação às autoridades civis, o RCONT estabelece que:",
+        options: ["Todas têm direito à continência.", "Apenas as em visita oficial têm direito à continência.", "Nenhuma autoridade civil pode receber continência.", "O direito à continência é exclusivo do Presidente da República."],
+        correctAnswer: 1
+    },
+    {
+        question: "A posição de sentido deve ser adotada:",
+        options: ["Apenas durante desfiles.", "Quando da execução do Hino Nacional.", "Somente em cerimônias oficiais.", "Quando se dirige a um subordinado."],
+        correctAnswer: 1
+    },
+    {
+        question: "O deslocamento em grupo de militares segue a regra de:",
+        options: ["O mais antigo à esquerda.", "O mais antigo ao centro.", "O mais moderno ao centro.", "Distribuição livre entre os membros."],
+        correctAnswer: 1
     }
 ];
 
@@ -723,15 +798,66 @@ const rdaerQuizData = [
             "Qualquer superior imediato."
         ],
         correctAnswer: 1
-    }
+    },
+    {
+        question: "De acordo com o RDAER, a punição disciplinar se torna necessária quando:",
+        options: ["Há benefício para o punido ou para a organização militar.", "A transgressão causa dano irreparável à imagem da força.", "A transgressão é cometida contra uma autoridade civil.", "Não há possibilidade de reeducação do militar."],
+        correctAnswer: 0
+    },
+    {
+        question: "As ordens emitidas por uma autoridade devem ser:",
+        options: ["Executadas após consulta ao comandante.", "Prontamente executadas pelo subordinado.", "Sempre emitidas por escrito, para registro.", "Submetidas a uma revisão antes de execução."],
+        correctAnswer: 1
+    },
+    {
+        question: "Quando um militar encontra um subordinado cometendo um crime, ele deve:",
+        options: ["Adverti-lo verbalmente e anotar a ocorrência.", "Prendê-lo e encaminhá-lo à autoridade competente.", "Suspender o subordinado temporariamente.", "Repreendê-lo por escrito e informar o comandante."],
+        correctAnswer: 1
+    },
+    {
+        question: "No contexto das transgressões disciplinares, estas são consideradas:",
+        options: ["Ações graves e irreversíveis.", "Crimes militares de menor gravidade.", "Ações ou omissões contrárias ao dever militar.", "Apenas negligências no exercício do serviço."],
+        correctAnswer: 2
+    },
+    {
+        question: "A disciplina no âmbito da Aeronáutica é:",
+        options: ["Facultativa em tempos de paz.", "Fundamental para a coesão e o cumprimento da missão.", "Exclusiva para operações de guerra.", "Obrigatória apenas para militares da ativa."],
+        correctAnswer: 1
+    },
+    {
+        question: "São circunstâncias justificativas para transgressões disciplinares, EXCETO:",
+        options: ["Obediência a ordem superior.", "Legitima defesa própria ou de outrem.", "Desconhecimento de disposições ou ordens.", "Premeditação com boa intenção."],
+        correctAnswer: 3
+    },
+    {
+        question: "As punições disciplinares previstas no RDAER incluem:",
+        options: ["Apenas advertências e detenções.", "Repreensão, detenção, prisão e exclusão.", "Multas e sanções administrativas.", "Advertência e redução de graduação."],
+        correctAnswer: 1
+    },
+    {
+        question: "Quando uma ordem parecer obscura, o subordinado deve:",
+        options: ["Executá-la imediatamente, sem questionar.", "Pedir esclarecimentos no ato de recebimento.", "Solicitar permissão para adiar sua execução.", "Substituí-la por outra ordem equivalente."],
+        correctAnswer: 1
+    },
+    {
+        question: "As transgressões disciplinares classificadas como graves incluem:",
+        options: ["Apenas ações de indisciplina de voo.", "Ofensas à dignidade militar ou negligências graves.", "Apenas crimes militares previstos em lei.", "Todas as ações previstas como crimes no Código Penal."],
+        correctAnswer: 1
+    },
+    {
+        question: "A responsabilidade por formular e emitir ordens é:",
+        options: ["Exclusiva do comandante da unidade.", "Compartilhada entre subordinados e superiores.", "De inteira responsabilidade da autoridade que as emite.", "Decidida por consenso em reuniões."],
+        correctAnswer: 2
+    },
 ];
 
 // Dados das questões de Conhecimento BLM
+//Questões conferidas e atualizadas, total de 70 questões!
 const conhecimentoQuizData = [
     {
         question: "Quem foi o pioneiro que realizou o primeiro voo controlado em público com um aparelho mais pesado que o ar?",
         options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Leonardo da Vinci"],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         question: "Qual é a principal função das asas de uma aeronave?",
@@ -871,182 +997,7 @@ const conhecimentoQuizData = [
     {
         question: "Onde normalmente estão localizados os estabilizadores em uma aeronave?",
         options: ["Na fuselagem", "Nas asas", "Na cauda", "No trem de pouso"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é o principal objetivo das publicações técnicas no contexto do equipamento de voo?",
-        options: ["Fornecer informações de segurança operacional", "Catalogar peças de reposição", "Padronizar procedimentos de manutenção", "Analisar custos de operação"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual ferramenta é usada para retirar contra-pinos em aeronaves?",
-        options: ["Alicate de corte diagonal", "Chave Phillips", "Chave combinada", "Soquete"],
         correctAnswer: 0
-    },
-    {
-        question: "Em que parte do avião estão localizadas as superfícies de controle principais?",
-        options: ["Trem de pouso", "Bordos de fuga das asas", "Fuselagem dianteira", "Motores"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que caracteriza uma furação sem rebarbas?",
-        options: ["Corte de alta precisão", "Utilização de abrasivos", "Alta rotação e refrigeração adequada", "Uso de brocas diamantadas"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual material é mais comumente usado para reduzir atrito em aeronaves?",
-        options: ["Polímero sintético", "Ligas de titânio", "Aço inoxidável", "Grafite"],
-        correctAnswer: 3
-    },
-    {
-        question: "O que é considerado um componente do SILOMS?",
-        options: ["Gerador elétrico", "Sistema de rastreamento de materiais", "Radar de alta frequência", "Tanque de oxigênio"],
-        correctAnswer: 1
-    },
-    {
-        question: "Quem foi o pioneiro que realizou o primeiro voo controlado em público com um aparelho mais pesado que o ar?",
-        options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Leonardo da Vinci"],
-        correctAnswer: 1
-    },
-    {
-        question: "Qual é a principal função das asas de uma aeronave?",
-        options: ["Armazenar combustível", "Criar força de sustentação", "Aumentar a estabilidade no solo", "Proteger os motores"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que é o profundor em uma aeronave?",
-        options: ["Um tipo de motor auxiliar", "Uma superfície que controla o movimento vertical do nariz", "Um dispositivo de frenagem", "Parte do trem de pouso"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que caracteriza um cálculo do 'Part Number' (P/N)?",
-        options: ["Identificação do número de série de uma aeronave", "Código designado ao projeto de cada aeronave", "Número de identificação de um item pelo fabricante", "Quantidade de horas de voo"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é o principal componente do grupo motopropulsor?",
-        options: ["Profundor", "Motor", "Trem de pouso", "Tanque de combustível"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que é a eletrostática?",
-        options: ["O estudo de cargas elétricas em movimento", "O estudo de cargas elétricas em repouso", "A transmissão de ondas magnéticas", "O comportamento de condutores em alta tensão"],
-        correctAnswer: 1
-    },
-    {
-        question: "Um cátion é formado quando:",
-        options: ["Um átomo perde elétrons", "Um átomo ganha elétrons", "Um átomo neutraliza seu núcleo", "Um átomo se torna estável"],
-        correctAnswer: 0
-    },
-    {
-        question: "Qual é a unidade de medida da corrente elétrica?",
-        options: ["Volt", "Ampère", "Ohm", "Joule"],
-        correctAnswer: 1
-    },
-    {
-        question: "Em qual situação ocorre uma eletrização por indução?",
-        options: ["Dois corpos neutros entram em atrito", "Um corpo eletrizado entra em contato com um neutro", "Um corpo eletrizado aproxima-se de um neutro sem contato", "Há a troca de núcleos entre átomos"],
-        correctAnswer: 2
-    },
-    {
-        question: "Um material que não conduz corrente elétrica é chamado de:",
-        options: ["Condutor", "Isolante", "Resistivo", "Semi-condutor"],
-        correctAnswer: 1
-    },
-    {
-        question: "Qual é a principal razão para a pintura em aeronaves?",
-        options: ["Estética", "Reduzir o peso total", "Proteger contra corrosão", "Facilitar a manutenção"],
-        correctAnswer: 2
-    },
-    {
-        question: "O que é considerado um material consumível na manutenção de aeronaves?",
-        options: ["Tanque de combustível", "Parafusos e arruelas", "Motores auxiliares", "Ferramentas de precisão"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que caracteriza uma chave de fenda comum?",
-        options: ["Ponta fina com alta precisão", "Ponta rombuda e espessa", "Ponta em cruz", "Cabo ajustável"],
-        correctAnswer: 1
-    },
-    {
-        question: "Qual é o nome dado ao item que não pode ser desmontado sem destruição?",
-        options: ["Equipamento", "Conjunto", "Peça", "Ferramental"],
-        correctAnswer: 2
-    },
-    {
-        question: "Como são classificadas as ferramentas que auxiliam na manutenção em solo?",
-        options: ["Equipamentos de apoio solo", "Ferramentas de precisão", "Instrumentos de medição", "Equipamentos secundários"],
-        correctAnswer: 0
-    },
-    {
-        question: "Qual é a principal causa de corrosão em superfícies metálicas?",
-        options: ["Impacto mecânico", "Exposição a agentes químicos", "Uso inadequado de combustíveis", "Sobrecarga elétrica"],
-        correctAnswer: 1
-    },
-    {
-        question: "Qual é a melhor maneira de prevenir a corrosão?",
-        options: ["Pintura protetiva", "Uso de eletrólitos", "Redução do peso total", "Substituição de peças periodicamente"],
-        correctAnswer: 0
-    },
-    {
-        question: "O que significa 'passivação' no tratamento anticorrosivo?",
-        options: ["Cobertura com um material isolante", "Remoção de camadas oxidadas", "Criação de uma camada protetora química", "Polimento de superfícies"],
-        correctAnswer: 2
-    },
-    {
-        question: "Quais materiais são mais propensos à corrosão?",
-        options: ["Ligas metálicas", "Materiais compósitos", "Polímeros", "Cerâmicas"],
-        correctAnswer: 0
-    },
-    {
-        question: "O que caracteriza um ataque corrosivo galvânico?",
-        options: ["Formação de fissuras por impacto", "Reação entre metais diferentes em contato", "Oxidação por alta temperatura", "Uso inadequado de solventes"],
-        correctAnswer: 1
-    },
-    {
-        question: "Qual ferramenta é usada para cortar chapas metálicas com precisão?",
-        options: ["Furadeira", "Guilhotina", "Dobradeira", "Torno mecânico"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que é um martelete pneumático usado em manutenção?",
-        options: ["Ferramenta para soldagem", "Equipamento de pintura", "Ferramenta para rebitagem", "Instrumento de medição"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é a função de uma dobradeira?",
-        options: ["Curvar chapas metálicas", "Cortar perfis de liga", "Medir espessuras", "Remover oxidação"],
-        correctAnswer: 0
-    },
-    {
-        question: "Como são classificadas as brocas utilizadas em aeronaves?",
-        options: ["Pelo diâmetro e material de fabricação", "Pelo tipo de motor utilizado", "Pela resistência à corrosão", "Pelo revestimento de superfície"],
-        correctAnswer: 0
-    },
-    {
-        question: "Qual é a finalidade do uso de furação em aeronaves?",
-        options: ["Aumentar a resistência estrutural", "Facilitar a manutenção interna", "Reforçar a pressurização", "Permitir junções rebitadas"],
-        correctAnswer: 3
-    },
-    {
-        question: "O que define um equipamento de voo 'SSS'?",
-        options: ["Sistema de Segurança e Sustentação", "Sistema de Suporte Simplificado", "Sistema de Sobrevivência e Suporte", "Sistema de Supervisão Secundária"],
-        correctAnswer: 2
-    },
-    {
-        question: "Qual é a função primária dos equipamentos de navegação?",
-        options: ["Fornecer dados para estabilidade", "Garantir a segurança dos tripulantes", "Controlar os motores", "Monitorar o espaço aéreo"],
-        correctAnswer: 1
-    },
-    {
-        question: "O que caracteriza o sistema SILOMS?",
-        options: ["Gerenciamento de suprimentos logísticos", "Monitoração de combustíveis", "Controle de condições climáticas", "Supervisão de eletrônicos"],
-        correctAnswer: 0
-    },
-    {
-        question: "Onde normalmente estão localizados os estabilizadores em uma aeronave?",
-        options: ["Na fuselagem", "Nas asas", "Na cauda", "No trem de pouso"],
-        correctAnswer: 2
     },
     {
         question: "Qual é o principal objetivo das publicações técnicas no contexto do equipamento de voo?",
@@ -1252,6 +1203,161 @@ const conhecimentoQuizData = [
         question: "Qual dispositivo aproveita o magnetismo gerado pela corrente elétrica para fechar um circuito?", 
         options: ["Relé", "Transformador", "Solenoide", "Gerador"], 
         correctAnswer: 1 
+    },
+    {
+        question: " Qual foi a contribuição de Bartolomeu de Gusmão para a história da aviação?",
+        options:["Criou o 14-Bis e realizou o primeiro voo controlado.", "Realizou experiências com um balão de ar quente.", "Desenvolveu teorias sobre superfícies de comando.", "Inventou o motor à jato."],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual brasileiro foi responsável pelo primeiro voo documentado de um aparelho mais pesado que o ar?",
+        options:["Bartolomeu de Gusmão.", "Santos Dumont. ", "Joaquim da Silva.", "José Carlos Pinheiro."],
+        correctAnswer: 1
+    },
+    {
+        question: " Qual a missão principal do '14-Bis'?",
+        options:["Transporte de cargas.", "Exibições de acrobacias.", "Realizar voos demonstrativos.", "Bombardeio estratégico."],
+        correctAnswer: 2
+    },
+    {
+        question: "O que simboliza a letra 'C' em uma aeronave militar como o exemplo 'KC-130G'?",
+        options:["Indica uma modificação operacional.", "Representa a missão básica de transporte.", "Refere-se ao tipo de motor utilizado.", "Denota uma aeronave de combate."],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual parte de um avião é responsável pela força de sustentação durante o voo?",
+        options:["Fuselagem.", "Asa.", "Trem de pouso.", "Grupo motopropulsor."],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a função principal do aileron?",
+        options:["Permitir o controle da altitude da aeronave.", "Fazer a aeronave girar em torno do eixo longitudinal.", "Reduzir a velocidade para pousos suaves.", "Controlar a direção durante curvas."],
+        correctAnswer: 1
+    },
+    {
+        question: "O profundor está localizado:",
+        options:["Nas asas, próximo às pontas.", "Na deriva, como parte do estabilizador vertical.", "No estabilizador horizontal.", "Na fuselagem dianteira."],
+        correctAnswer: 2
+    },
+    {
+        question: "O leme de direção é acionado por meio de:",
+        options:["Manche.", "Pedais.", "Alavancas automáticas.", "Controle remoto."],
+        correctAnswer: 1
+    },
+    {
+        question: "Durante uma curva, como os ailerons trabalham?",
+        options:["Ambos se movem para cima simultaneamente.", "Ambos se movem para baixo simultaneamente.", "Um sobe e o outro desce.", "Permanecem neutros."],
+        correctAnswer: 2
+    },
+    {
+        question: "O movimento do profundor afeta diretamente:",
+        options:["O eixo longitudinal.", "O eixo lateral.", "O eixo vertical.", "O trem de pouso."],
+        correctAnswer: 1
+    },
+    {
+        question: "A denominação 'QAV-1' é equivalente a:",
+        options:["JP-3.", "JET-A-1.", "AV GAS 100.", "QAT-2."],
+        correctAnswer: 1
+    },
+    {
+        question: "O que diferencia o uso de gasolina e querosene na aviação?",
+        options:["O tipo de pista.", "O tipo de motor utilizado.", "O tamanho da aeronave.", "O clima da região."],
+        correctAnswer: 1
+    },
+    {
+        question: "A gasolina de aviação nacional recebe qual sigla internacional?",
+        options:["JET-A-1.", "JP-3.", "AV GAS 101.", "AV JET 202."],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual sistema é utilizado para controlar a manutenção na FAB?",
+        options:["SICOM.", "SILOMS.", "SIMAER.", "LOGFAB."],
+        correctAnswer: 1
+    },
+    {
+        question: "O termo 'canibalização' refere-se a:",
+        options:["Recuperação de materiais avariados.", "Substituição de peças antigas por novas.", "Retirada de itens de uma aeronave para uso em outra.", "Descarte de materiais obsoletos."],
+        correctAnswer: 2
+    },
+    {
+        question: "O que caracteriza uma 'peça de consumo'?",
+        options:["Pode ser reutilizada após revisão.", "É consumida ou danificada no uso normal.", "Necessita de manutenção específica constante.", "É exclusiva de aeronaves militares."],
+        correctAnswer: 1
+    },
+    {
+        question: "Quais funções o SILOMS integra, além do controle de manutenção?",
+        options:["Controle de suprimento e publicações técnicas.", "Planejamento de voos e treinamento de pilotos.", "Monitoramento do espaço aéreo e da logística terrestre.", "Coordenação de transporte de tropas."],
+        correctAnswer: 0
+    },
+    {
+        question: "Qual das ferramentas é usada para cortar arames de segurança?",
+        options:["Chave ajustável.", "Alicate de corte diagonal.", "Jogo de soquetes.", "Barra de extensão."],
+        correctAnswer: 1
+    },
+    {
+        question: "O que constitui a estrutura básica de toda a matéria?",
+        options:["Moléculas.", "Átomos.", "Partículas subatôminas.", "Núcleos atômicos."],
+        correctAnswer: 1
+    },
+    {
+        question: "Onde estão localizados os prótons e nêutrons em um átomo?",
+        options:["Na eletrosfera.", "No núcleo.", "No exterior do átomo.", "Dispersos aleatoriamente."],
+        correctAnswer: 1
+    },
+    {
+        question: "O que determina a identidade de um elemento químico?",
+        options:["Número de elétrons.", "Número de prótons.", "Número de nêutrons.", "Configuração molecular."],
+        correctAnswer: 1
+    },
+    {
+        question: "Como são chamados os átomos eletrizados?",
+        options:["Moléculas.", "Isótopos.", "Ânios ou cátions.", "Elementos instáveis."],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual é a unidade de medida do potencial elétrico?",
+        options:["Ampère.", "Ohm.", "Volt.", "Watt."],
+        correctAnswer: 2
+    },
+    {
+        question: "O que caracteriza a lei das cargas elétricas?",
+        options:["Cargas iguais se atraem e cargas opostas se repelem.", "Cargas iguais se repelem e cargas opostas se atraem.", "Cargas positivas atraem neutras.", "Cargas negativas repelem neutras."],
+        correctAnswer: 1
+    },
+    {
+        question: "Como é chamado o processo de transformar um corpo neutro em eletrizado?",
+        options:["Polarização.", "Eletrização.", "Dissociação.", "Ionização."],
+        correctAnswer: 1
+    },
+    {
+        question: "Como ocorre a eletrização por atrito?",
+        options:["Por contato direto com um corpo eletrizado.", "Por aproximação de um campo magnético.", "Por troca de elétrons entre dois corpos.", "Por indução térmica."],
+        correctAnswer: 2
+    },
+    {
+        question: "Qual partícula gera o campo elétrico ao seu redor?",
+        options:["Prótons apenas.", "Elétrons apenas.", "Prótons e elétrons.", "Nêutrons."],
+        correctAnswer: 2
+    },
+    {
+        question: "A intensidade de um campo elétrico depende de:",
+        options:["Massa do corpo e distância.", "Grau de eletrização e distância.", "Tipo de material e massa.", "Tamanho do corpo e tipo de carga."],
+        correctAnswer: 1
+    },
+    {
+        question: "O que define a corrente elétrica?",
+        options:["O deslocamento de elétrons ou íons.", "A intensidade de um campo elétrico.", "A resistência de um material.", "O potencial elétrico absoluto."],
+        correctAnswer: 0
+    },
+    {
+        question: "A resistência elétrica é influenciada por:",
+        options:["Potencial e intensidade da corrente.", "Comprimento e material do condutor.", "Tipo de carga elétrica no átomo.", "Polarização do campo magnético."],
+        correctAnswer: 1
+    },
+    {
+        question: "Qual é a unidade de medida de resistência elétrica?",
+        options:["Volt.", "Ampère.", "Ohm.", "Joule"],
+        correctAnswer: 2
     }
 ];
 
@@ -1576,7 +1682,7 @@ const estatutoQuizData = [
                    "Operações exclusivamente de campo."
           ],
           correctAnswer: 1
-      },
+    },
     {
       question: "O que caracteriza uma contravenção ou transgressão disciplinar, conforme o Art. 47?",
         options: ["Qualquer violação do Código Penal Militar.", 
@@ -2264,6 +2370,26 @@ const estatutoQuizData = [
             "Defender a soberania do pais",
             "Seguir normas hierárquicas divergentes"
         ],
+        correctAnswer: 1
+    },
+    {
+        question: "A carreira militar, conforme o Estatuto, é caracterizada por:",
+        options: ["Atividade temporária em benefício da Pátria.", "Caráter contínuo e dedicação exclusiva.", "Direitos e deveres iguais aos dos servidores civis.", "Exclusividade para oficiais da ativa."],
+        correctAnswer: 1
+    },
+    {
+        question: "Entre os valores essenciais do militar, estão:",
+        options: ["A liberdade de expressão acima de tudo.", "O patriotismo e o espírito de corpo.", "A imparcialidade política em todas as situações.", "A busca de benefícios pessoais."],
+        correctAnswer: 1
+    },
+    {
+        question: "A hierarquia militar é definida como:",
+        options: ["Um conjunto de regras flexíveis para facilitar a administração.", "A ordenação da autoridade em níveis diferentes.", "Uma estrutura exclusiva para operações de guerra.", "Um sistema opcional para as Forças Armadas."],
+        correctAnswer: 1
+    },
+    {
+        question: "A disciplina é descrita no Estatuto como:",
+        options: ["Uma diretriz moral para as Forças Armadas.", "O respeito às leis, regulamentos e ordens.", "Uma obrigação exclusiva dos militares da ativa.", "Um conceito aplicável apenas em tempos de paz."],
         correctAnswer: 1
     }
 ];
