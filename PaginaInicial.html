@@ -56,6 +56,17 @@
         // Inicia o temporizador quando a página carregar
         resetTimer();
     </script>
+
+    <script>
+    document.getElementById('logoutButton').addEventListener('click', function() {
+        const username = prompt('Digite seu nome de usuário para deslogar:');
+        if (username) {
+            removeSession(username);  // Remove o usuário da lista de sessões ativas
+            alert(`${username} deslogado com sucesso!`);
+            window.location.href = 'index.html';  // Redireciona para a tela de login
+        }
+    });
+</script>
     
 
 </body>
