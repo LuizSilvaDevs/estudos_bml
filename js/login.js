@@ -10,6 +10,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   const user = users.find(conferir => conferir.username === username && conferir.password === password);
 
   if (user) {
+      // Armazena o login no localStorage (simples verificação de sessão)
+      localStorage.setItem('loggedIn', 'true');
+      
       // Credenciais corretas, redireciona para a página inicial
       window.location.href = 'PaginaInicial.html';  // Redireciona para a página inicial
   } else {
