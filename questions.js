@@ -857,7 +857,7 @@ const conhecimentoQuizData = [
     {
         question: "Quem foi o pioneiro que realizou o primeiro voo controlado em público com um aparelho mais pesado que o ar?",
         options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Leonardo da Vinci"],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Qual é a principal função das asas de uma aeronave?",
@@ -997,7 +997,7 @@ const conhecimentoQuizData = [
     {
         question: "Onde normalmente estão localizados os estabilizadores em uma aeronave?",
         options: ["Na fuselagem", "Nas asas", "Na cauda", "No trem de pouso"],
-        correctAnswer: 0
+        correctAnswer: 2
     },
     {
         question: "Qual é o principal objetivo das publicações técnicas no contexto do equipamento de voo?",
@@ -1032,7 +1032,7 @@ const conhecimentoQuizData = [
     {
         question: "Qual fator mais contribui para o desgaste de pneus de aviões?",
         options: ["Altas temperaturas", "Velocidade no pouso", "Pressão de inflagem", "Fadiga do material"],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "A resistência elétrica de um fio depende de:",
@@ -1042,7 +1042,7 @@ const conhecimentoQuizData = [
     {
         question: "Qual parte do motor turbofan é mais propensa a corrosão?",
         options: ["Câmara de combustão", "Compressor", "Turbina", "Carenagem externa"],
-        correctAnswer: 2
+        correctAnswer: 1
     },
     {
         question: "O que é usado para selar janelas de aeronaves?",
@@ -1055,11 +1055,6 @@ const conhecimentoQuizData = [
         correctAnswer: 1
     },
     { 
-        question: "Quem realizou o primeiro voo controlado e documentado em um aparelho mais pesado que o ar?", 
-        options: ["Bartolomeu de Gusmão", "Alberto Santos Dumont", "Irmãos Wright", "Dédalo e Ícaro"], 
-        correctAnswer: 2 
-    },
-    { 
         question: "Qual a principal contribuição de Bartolomeu de Gusmão para a história da aviação?", 
         options: ["Construção de asas mecânicas", "Desenvolvimento do 14 Bis", "Criação de um balão de ar quente", "Primeira descrição do motor a jato"], 
         correctAnswer: 2 
@@ -1067,7 +1062,7 @@ const conhecimentoQuizData = [
     { 
         question: "O que é a fuselagem de uma aeronave?", 
         options: ["A parte que estabiliza o avião durante o voo", "A estrutura onde asas e estabilizadores estão fixados", "O conjunto de cauda formado pelos estabilizadores", "O motor e hélice de propulsão"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "Qual a função principal das asas de uma aeronave?", 
@@ -1077,7 +1072,7 @@ const conhecimentoQuizData = [
     { 
         question: "O aileron é responsável por qual movimento da aeronave?", 
         options: ["Subir e descer o nariz do avião", "Girar em torno do eixo longitudinal", "Movimentar o nariz para direita ou esquerda", "Estabilizar o avião no solo"], 
-        correctAnswer: 2 
+        correctAnswer: 2
     },
     { 
         question: "O leme de direção está localizado em qual parte da aeronave?", 
@@ -1087,42 +1082,42 @@ const conhecimentoQuizData = [
     { 
         question: "Qual a sigla nacional para a gasolina de aviação?", 
         options: ["JP-3", "QAV-1", "AV GAS 100", "JET-A-1"], 
-        correctAnswer: 3 
+        correctAnswer: 3
     },
     { 
         question: "Motores a reação utilizam que tipo de combustível?", 
         options: ["Gasolina", "Querosene", "Diesel", "Álcool"], 
-        correctAnswer: 2 
+        correctAnswer: 1 
     },
     { 
         question: "Qual o papel principal do SILOMS na logística de manutenção?", 
         options: ["Controlar o tráfego aéreo", "Automatizar as operações de voo", "Padronizar formulários e procedimentos", "Supervisionar os pilotos"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "Qual das ferramentas abaixo é mais indicada para trabalhos delicados?", 
         options: ["Chave de fenda comum", "Chave de boca", "Chave de fenda fina", "Alicate de corte diagonal"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "O núcleo de um átomo é composto por:", 
         options: ["Elétrons e prótons", "Prótons e nêutrons", "Elétrons e nêutrons", "Prótons, nêutrons e elétrons"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "O que é um íon positivo?", 
         options: ["Átomo que ganhou elétrons", "Átomo que perdeu elétrons", "Átomo com número igual de prótons e elétrons", "Corpo com excesso de nêutrons"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "O que ocorre ao redor de um condutor percorrido por corrente elétrica?", 
         options: ["Formação de uma onda sonora", "Geração de calor", "Criação de um campo magnético", "Produção de luz visível"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "O eletroímã é controlado por:", 
         options: ["Tensão constante", "Corrente elétrica", "Resistência variável", "Magnetismo natural"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "Qual equipamento auxilia no içamento de motores em aeronaves?", 
@@ -1132,77 +1127,77 @@ const conhecimentoQuizData = [
     { 
         question: "Qual é a função do arco de velocidade?", 
         options: ["Aumentar o torque de parafusos", "Substituir chaves ajustáveis", "Garantir rapidez nas operações", "Proteger a estrutura do avião"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "Materiais como borracha são classificados como:", 
         options: ["Bons condutores", "Isolantes", "Ferromagnéticos", "Semicondutores"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "A resistência elétrica é influenciada por:", 
         options: ["Diferença de potencial", "Resistividade e comprimento do condutor", "Somente pela área do condutor", "Tipo de campo magnético"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "Qual a principal causa de corrosão em aeronaves?", 
         options: ["Exposição à luz solar", "Contato com combustíveis", "Ação de agentes químicos e ambientais", "Uso de materiais ferromagnéticos"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "O tratamento anticorrosivo busca:", 
         options: ["Aumentar o peso das aeronaves", "Melhorar a eficiência aerodinâmica", "Proteger contra desgastes químicos", "Reduzir a capacidade de carga"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "Qual a principal função do trem de pouso?", 
         options: ["Criar sustentação durante o voo", "Estabilizar o avião no ar", "Permitir manobras no solo e suportar o avião no chão", "Auxiliar no controle da aeronave durante a decolagem"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "O que define a “letra de série” em uma aeronave?", 
         options: ["O tipo de aeronave na missão básica", "Modificações que alteram desempenho ou manutenção", "Código do projeto no SILOMS", "Símbolo do tipo de motor utilizado"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "O que são Equipamentos de Apoio Solo (EAS)?", 
         options: ["Ferramentas usadas para transporte de passageiros", "Equipamentos utilizados em manutenção de pista e hangar", "Sistemas de propulsão suplementar", "Dispositivos de controle de voo automático"], 
-        correctAnswer: 2 
+        correctAnswer: 2
     },
     { 
         question: "Qual dispositivo é usado para travar as superfícies de comando durante a manutenção?", 
         options: ["Unidade auxiliar de partida", "Dispositivo de travamento de superfícies", "Bancada de teste hidráulico", "Plataforma móvel"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "Quais combustíveis são utilizados em motores a reação?", 
         options: ["AV GAS 100 e gasolina comum", "QAV-1 e querosene", "Diesel e álcool", "JP-3 e QAV-1"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "Qual é a diferença principal entre o QAV-1 e o AV GAS 100?", 
         options: ["Composição química", "Usabilidade em aeronaves comerciais e militares", "Eficiência energética", "Tipo de motor utilizado"], 
-        correctAnswer: 4 
+        correctAnswer: 4
     },
     { 
         question: "Qual unidade mede a resistência elétrica?", 
         options: ["Ampère (A)", "Volt (V)", "Ohm (Ω)", "Watt (W)"], 
-        correctAnswer: 3 
+        correctAnswer: 2
     },
     { 
         question: "Um material com alta resistividade possui qual característica?", 
         options: ["Alta condutividade elétrica", "Dificuldade para conduzir corrente elétrica", "Geração de grande quantidade de calor", "Facilidade em gerar magnetismo"], 
-        correctAnswer: 2 
+        correctAnswer: 1
     },
     { 
         question: "O Efeito Joule é responsável por:", 
         options: ["Geração de calor em condutores", "Produção de luz em LEDs", "Movimentação de íons no gás", "Criação de campos magnéticos"], 
-        correctAnswer: 1 
+        correctAnswer: 0
     },
     { 
         question: "Qual dispositivo aproveita o magnetismo gerado pela corrente elétrica para fechar um circuito?", 
         options: ["Relé", "Transformador", "Solenoide", "Gerador"], 
-        correctAnswer: 1 
+        correctAnswer: 0
     },
     {
         question: " Qual foi a contribuição de Bartolomeu de Gusmão para a história da aviação?",
@@ -1382,7 +1377,7 @@ const estatutoQuizData = [
             "Marinha, Exército e Aeronáutica.",
             "Corpo de Bombeiros, Aeronáutica e Exército."
         ],
-        correctAnswer: 3
+        correctAnswer: 2
     },
     {
         question: "A quem se aplica o Estatuto dos Militares, conforme o Art. 8º?",
