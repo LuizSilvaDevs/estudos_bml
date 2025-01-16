@@ -11,7 +11,12 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   if (user) {
       // Armazena o login no localStorage (simples verificação de sessão)
-      localStorage.setItem('loggedIn', 'true');
+      if(isUserLoggedIn(username)){
+        alert("Este usuário já está logado em outro dispositivo. Desconectando a seção anterior.");
+        //Remover sessão anterior (desconectar)
+        removeSession(username);
+      }
+      addSession(username);
       
       // Credenciais corretas, redireciona para a página inicial
       window.location.href = 'PaginaInicial.html';  // Redireciona para a página inicial
