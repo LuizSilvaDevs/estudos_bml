@@ -1,7 +1,7 @@
 // sessionTimeout.js
 
 // Tempo limite em milissegundos (10 minutos)
-const TIMEOUT = 60 * 1000;
+const TIMEOUT = 5 * 60 * 1000;
 let timeout;
 
 // Função para deslogar o usuário
